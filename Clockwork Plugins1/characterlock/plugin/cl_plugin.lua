@@ -1,0 +1,1 @@
+Clockwork.config:AddToSystem("Character Lock", "char_lock", "Should switching characters be disabled?", true);

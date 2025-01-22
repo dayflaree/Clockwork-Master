@@ -1,0 +1,1 @@
+Clockwork.config:Add("char_lock", false);

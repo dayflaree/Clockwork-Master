@@ -1,0 +1,16 @@
+local ITEM = Clockwork.item:New("special_weapon");
+	ITEM.name = "Glock 19";
+	ITEM.useSound = "items/gift_pickup.wav";
+	ITEM.cost = 750;
+	ITEM.batch = 3;
+	ITEM.model = "models/weapons/w_pist_glock18.mdl";
+	ITEM.weight = 1.5;
+	ITEM.access = "MV";
+	ITEM.uniqueID = "rcs_glock";
+	ITEM.business = true;
+	ITEM.description = "The Glock-19, a cheap mass-production pistol made almost entirely of polymer, is well-known for its square slide and sturdy design. Comes equipped with 3-round burst fire.";
+	ITEM.isAttachment = false;
+	ITEM.hasFlashlight = true;
+	ITEM.loweredOrigin = Vector(3, 0, -4);
+	ITEM.loweredAngles = Angle(0, 45, 0);
+ITEM:Register();

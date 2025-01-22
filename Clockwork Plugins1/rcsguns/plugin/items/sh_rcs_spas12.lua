@@ -1,0 +1,21 @@
+-- welcome to clockwork $30, please.
+local ITEM = Clockwork.item:New("special_weapon");
+	ITEM.name = "Franchi SPAS-12";
+	ITEM.useSound = "items/gift_pickup.wav";
+	ITEM.cost = 10000;
+	ITEM.batch = 3;
+	ITEM.model = "models/weapons/w_shotgun.mdl";
+	ITEM.access = "MV";
+	ITEM.weight = 4.5;
+	ITEM.classes = {CLASS_EOW};
+	ITEM.uniqueID = "rcs_spas12";
+	ITEM.business = true;
+	ITEM.description = "A powerful, rugged SPAS-12 shotgun containing an eight-shell internal magazine and tritium sights. This Combine-produced aftermarket variant lacks the folding stock typically seen on factory equivalents.";
+	ITEM.isAttachment = true;
+	ITEM.hasFlashlight = true;
+	ITEM.loweredOrigin = Vector(3, 0, -4);
+	ITEM.loweredAngles = Angle(0, 45, 0);
+	ITEM.attachmentBone = "ValveBiped.Bip01_Spine4";
+	ITEM.attachmentOffsetAngles = Angle(20, 5, -10);
+	ITEM.attachmentOffsetVector = Vector(-6, 0, -12);
+ITEM:Register();

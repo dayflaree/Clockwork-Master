@@ -1,0 +1,21 @@
+local ITEM = Clockwork.item:New("special_weapon");
+ITEM.name = "Colt Python .357";
+ITEM.useSound = "items/gift_pickup.wav";
+ITEM.cost = 2500;
+ITEM.batch = 3;
+ITEM.model = "models/weapons/w_357.mdl";
+ITEM.weight = 2;
+ITEM.access = "MV";
+ITEM.classes = {CLASS_EOW};
+ITEM.uniqueID = "rcs_magnum";
+ITEM.business = true;
+ITEM.description = "A nickel-plated Colt Python revolver with a six-inch barrel, featuring a ventilated rib and adjustable sights. The figured walnut grip is warped slightly, revealing the weapon's true age.";
+ITEM.isAttachment = true;
+ITEM.hasFlashlight = true;
+ITEM.loweredOrigin = Vector(3, 0, -4);
+ITEM.loweredAngles = Angle(0, 45, 0);
+ITEM.attachmentBone = "ValveBiped.Bip01_R_Thigh";
+ITEM.attachmentOffsetAngles = Angle(75, 5, 92);
+ITEM.attachmentOffsetVector = Vector(-4.5, -2, 2);
+
+ITEM:Register();

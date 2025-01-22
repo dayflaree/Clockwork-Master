@@ -1,0 +1,16 @@
+local ITEM = Clockwork.item:New("special_weapon");
+	ITEM.name = "H&K USP-Tactical";
+	ITEM.useSound = "items/gift_pickup.wav";
+	ITEM.cost = 1500;
+	ITEM.batch = 3;
+	ITEM.model = "models/weapons/w_pist_usp_silencer.mdl";
+	ITEM.weight = 1.5;
+	ITEM.access = "MV";
+	ITEM.uniqueID = "rcs_usp";
+	ITEM.business = true;
+	ITEM.description = "A rather well-worn USP-Tactical, 9mm edition. It features a threaded barrel, raised front sights, and a match-grade trigger, along with a detachable suppressor.";
+	ITEM.isAttachment = false;
+	ITEM.hasFlashlight = true;
+	ITEM.loweredOrigin = Vector(3, 0, -4);
+	ITEM.loweredAngles = Angle(0, 45, 0);
+ITEM:Register();

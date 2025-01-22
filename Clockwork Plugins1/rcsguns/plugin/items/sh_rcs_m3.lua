@@ -1,0 +1,21 @@
+-- welcome to clockwork $30, please.
+local ITEM = Clockwork.item:New("special_weapon");
+	ITEM.name = "Benelli M3 Super 90";
+	ITEM.useSound = "items/gift_pickup.wav";
+	ITEM.cost = 6000;
+	ITEM.batch = 3;
+	ITEM.model = "models/weapons/w_shot_m3super90.mdl";
+	ITEM.access = "MV";
+	ITEM.weight = 4.5;
+	ITEM.classes = {CLASS_EOW};
+	ITEM.uniqueID = "rcs_m3";
+	ITEM.business = true;
+	ITEM.description = "An Italian-made 12-gauge pump action shotgun containing a 7-round internal magazine. Originally designed for police applications, this 'civilian' version lacks semi-automatic mode.";
+	ITEM.isAttachment = true;
+	ITEM.hasFlashlight = true;
+	ITEM.loweredOrigin = Vector(3, 0, -4);
+	ITEM.loweredAngles = Angle(180, 90, 180);
+	ITEM.attachmentBone = "ValveBiped.Bip01_Spine4";
+	ITEM.attachmentOffsetAngles = Angle(20, 5, 170);
+	ITEM.attachmentOffsetVector = Vector(-12, -2, -10);
+ITEM:Register();

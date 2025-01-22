@@ -1,0 +1,22 @@
+local ITEM = Clockwork.item:New("special_weapon");
+ITEM.name = "Steyr Scout";
+ITEM.useSound = "items/gift_pickup.wav";
+ITEM.cost = 4500;
+ITEM.batch = 3;
+ITEM.model = "models/weapons/w_snip_scout.mdl";
+ITEM.weight = 3.2;
+ITEM.access = "MV";
+ITEM.uniqueID = "rcs_scout";
+ITEM.weaponClass = "rcs_scout";
+ITEM.primaryAmmoType = "AlyxGun";
+ITEM.business = false;
+ITEM.description = "A modern scoped bolt-action rifle manufactured by Steyr Mannlicher. It is outfitted with an aluminum receiver housing, for a lighter weight, and possesses a fold-out bipod.";
+ITEM.isAttachment = true;
+ITEM.hasFlashlight = true;
+ITEM.loweredOrigin = Vector(0, 0, 0);
+ITEM.loweredAngles = Angle(-15, -40, 15);
+ITEM.attachmentBone = "ValveBiped.Bip01_Spine4";
+ITEM.attachmentOffsetAngles = Angle(-11.535, 180, 15);
+ITEM.attachmentOffsetVector = Vector(10, -0.5, -12);
+
+ITEM:Register();
