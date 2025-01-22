@@ -13,5 +13,5 @@ For assistance, refer to the following resources:
 - Clockwork Half-Life 2 Roleplay - https://github.com/CloudSixteen/HL2RP
 - Clockwork Workshop Content - https://steamcommunity.com/sharedfiles/filedetails/?id=108727894
 
-You can join the unofficial Clockwork Framework community Discord server below.
+You can join the unofficial Clockwork Framework community Discord server:
 https://discord.gg/VPycGycDEw
