@@ -1,0 +1,8 @@
+This is a fix of the original version released. This fixes the theme issues, as well as various others. CAX has been removed from this version of Clockwork.
+
+The new cl_theme must be put into your schema folder.
+
+Gamemode name, author, etc. can be edited in sh_boot.lua
+Please remember to give credit to Alex Grist.
+
+Thanks.
