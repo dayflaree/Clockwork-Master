@@ -1,5 +1,5 @@
 # Clockwork Master
-This is the master repository for Clockwork frameworks, schemas, plugins etc. Nearly everything 'Clockwork' can be found here.
+This is the master repository for Clockwork frameworks, schemas, plugins etc. Nearly everything 'Clockwork' can be found here. Additionally there are some miscellaneous gamemodes and schemas such as Nutscript.
 
 **Information**
 
