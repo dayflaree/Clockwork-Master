@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"S.T.A.L.K.E.R: A New Dawn"
+	"info"			"A roleplaying game based on the S.T.A.K.E.R Universe."
+	"version"		"1.0"
+	"author_url"	"www.ddemocracy.org"
+	"author_name"	"Macbacon"
+	"author_email"	"macbacon@live.dk"
+}

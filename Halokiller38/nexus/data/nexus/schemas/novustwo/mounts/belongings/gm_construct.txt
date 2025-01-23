@@ -1,0 +1,1 @@
+inventoryammo_pistol3backpack1weapon_mac101jacket1handheld_radio1ammo_smg13weapon_ak471position1776.805297851654.434326171875-140.24296569824angles	0.00792368501424790.77778840065002-89.997375488281moveablecash

@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"Nexus"
+	"info"			"A roleplaying framework."
+	"version"		"3.1"
+	"author_url"	"http://kurozael.com"
+	"author_name"	"kurozael"
+	"author_email"	"kurozael@gmail.com"
+}

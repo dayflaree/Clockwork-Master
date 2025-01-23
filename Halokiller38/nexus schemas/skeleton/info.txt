@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"Skeleton"
+	"info"			"An example module made for the nexus framework."
+	"version"		"1.0"
+	"author_url"	"http://kuropixel.com"
+	"author_name"	"kuropixel"
+	"author_email"	"kuropixel@gmail.com"
+}

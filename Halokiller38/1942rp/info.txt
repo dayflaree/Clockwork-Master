@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"1942RP"
+	"info"			"A roleplaying game based on the catastrophic events of WWII"
+	"version"		"0.1"
+	"author_url"	"http://jakewall.net"
+	"author_name"	"Mistress May"
+	"author_email"	"jake@sf-n.com"
+}

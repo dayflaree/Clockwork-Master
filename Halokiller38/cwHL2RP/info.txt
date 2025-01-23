@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"		"Half-Life Universe"
+	"info"		"A roleplaying game based off of Valve's masterpiece."
+	"version"	"1.1"
+	"author_url"	"http://www.sildefuse.net"
+	"author_name"	"Spencer Sharkey"
+	"author_email"	"spencer@sf-n.com"
+}

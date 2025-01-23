@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"			"Titan"
+	"info"			"A reliable networking system."
+	"version"		"1.0"
+	"author_name"	"kurozael"
+	"author_email"	"kurozael@gmail.com"
+	"author_url"	"http://kurozael.com"
+}

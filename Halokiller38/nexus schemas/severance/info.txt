@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"Severance"
+	"info"			"A roleplaying game based on a zombie apocalypse."
+	"version"		"1.0"
+	"author_url"	"http://kuropixel.com"
+	"author_name"	"kuropixel"
+	"author_email"	"kuropixel@gmail.com"
+}

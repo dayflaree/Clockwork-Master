@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"Half-Life 2 RP"
+	"info"			"A roleplaying game based on Half-Life™ 2."
+	"version"		"1.0"
+	"author_url"	"http://kuropixel.com"
+	"author_name"	"kuropixel"
+	"author_email"	"kuropixel@gmail.com"
+}

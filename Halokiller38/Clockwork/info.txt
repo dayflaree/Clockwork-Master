@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"Clockwork"
+	"info"			"A roleplaying framework for the people."
+	"version"		"1"
+	"author_url"	"http://kurozael.com"
+	"author_name"	"kurozael"
+	"author_email"	"kurozael@gmail.com"
+}

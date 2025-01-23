@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Omicron"
+	"version"	"1.0"
+
+	"author_name"	"Spencer & The Master"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+  
+      "mappattern"
+        {
+			"1" "^rpdm_"
+
+        }
+
+        "selectable"	"1"
+        "description"	"Project Omicron"
+
+
+}
+

@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"Metro 2033"
+	"info"			"aaaa"
+	"version"		"1.0"
+	"author_url"	"http://kurozael.com"
+	"author_name"	"kurozael"
+	"author_email"	"kurozael@gmail.com"
+}

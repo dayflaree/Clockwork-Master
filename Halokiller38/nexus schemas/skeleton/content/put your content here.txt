@@ -1,0 +1,3 @@
+All of your materials/models/sound or whatever should go here.
+When used on a dedicated server, the content here should be copied or moved
+	to the main garrysmod/ directory.

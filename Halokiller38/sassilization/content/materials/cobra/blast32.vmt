@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "cobra/blast32"
+	"$translucent" "1"
+}

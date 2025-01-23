@@ -1,0 +1,220 @@
+--[[
+	© 2012 Slidefuse.net do not share, re-distribute or modify
+	without permission of its author (spencer@sf-n.com).
+--]]
+
+SF.world = {};
+
+SF.world.utility = {};
+SF.world.FLOOR = {};
+SF.world.UTIL = {};
+SF.world.OBJS = {};
+
+
+SF.world.rots = {0, 90, 180, 270}
+SF.world.netQueue = {};
+
+SF.world.space = {};
+for i = 0, 9 do
+	SF.world.space[i+1] = Material("sf_ss13/turf/space/"..i..".png");
+end;
+
+function SF.world:Rot(i)
+	return self.rots[i];
+end;
+
+function SF.world:GetTile(level, x, y)
+	if (!self[level][x] or !self[level][x][y]) then
+		return self:DefaultTile();
+	end;
+	return self[level][x][y] or false;
+end;
+
+function SF.world:SetTile(level, x, y, tile)
+	if (!self[level][x]) then
+		self[level][x] = {};
+	end;
+	if (!self[level][x][y]) then
+		self[level][x][y] = self:DefaultTile();
+	end;
+	self[level][x][y] = tile;
+end;
+
+function SF.world:Append(level, x, y, uniqueID)
+	if (!self[level][x]) then
+		self[level][x] = {};
+	end;
+	if (!self[level][x][y]) then
+		self[level][x][y] = self:DefaultTile();
+	end;
+
+	local isObj = false;
+	local get = SF.tile:Get(uniqueID)
+
+	if (!self:HasTile(level, x, y, uniqueID) or get.isObj) then
+		return table.insert(self[level][x][y], self:MakeTile(x, y, uniqueID));
+	end;
+end;
+function SF.world:MakeTile(x, y, uniqueID)
+	return {uniqueID = uniqueID, x = x, y = y};
+end;
+
+function SF.world:HasTile(level, x, y, uniqueID)
+	for k, v in pairs(self:GetTile(level, x, y)) do
+		if (v.uniqueID == uniqueID) then
+			return true;
+		end;
+	end;
+	return false;
+end;
+
+function SF.world:Sort(level, x, y)
+	if (self:GetTile(level, x, y)) then
+		//table.SortByKey(self.stored[x][y]);
+		local newTable = {};
+		local i = 1;
+		for k, v in pairs(self:GetTile(level, x, y)) do
+			newTable[i] = v;
+			i = i + 1;
+		end;
+		self:SetTile(level, x, y, newTable);
+	end;
+end;
+
+function SF.world:Remove(level, tile)
+	for k, v in pairs(self:GetTile(level, tile.x, tile.y)) do
+		if (v.uniqueID == tile.uniqueID) then
+			self[level][tile.x][tile.y][k] = nil;
+			self:Sort(level, tile.x, tile.y);
+			if (SF.editorPanel) then
+				SF.editorPanel:RefreshTiles();
+			end;
+		end;
+	end;
+end;
+
+function SF.world:Rotate(level, x, y, id, rotate)
+	local tile = self:GetTile(level, x, y);
+	local rot = self[level][x][y][id].rot;
+	if (!rot) then
+		rot = 1
+	end;
+
+	if (rotate < 0) then
+		if (rot == 4) then
+			rot = 1;
+		else
+			rot = rot + 1;
+		end;
+	elseif (rotate > 0) then
+		if (rot == 4) then
+			rot = 1;
+		else
+			rot = rot - 1;
+		end;
+	end;
+
+	self[level][x][y][id].rot = rot;
+
+	if (SF.editorPanel) then
+		SF.editorPanel:RefreshTiles();
+	end;
+	return rot;
+end;
+
+function SF.world:SetRot(level, x, y, id, rot)
+	if (rot) then
+		self[level][x][y][id].rot = rot;
+	end;
+end;
+
+function SF.world:MoveUp(level, x, y, id)
+	if (id > 1) then
+		local tile = self:GetTile(level, x, y);
+		local toDown = table.Copy(tile[id-1]);
+		local toUp = table.Copy(tile[id]);
+		self[level][x][y][id] = toDown;
+		self[level][x][y][id-1] = toUp;
+		self:Sort(level, x, y);
+		if (SF.editorPanel) then
+			SF.editorPanel:RefreshTiles();
+		end;	
+	end;
+end;
+
+function SF.world:MoveDown(level, x, y, id)
+	local tile = self:GetTile(level, x, y);
+	if (id < #tile) then
+		local toDown = table.Copy(tile[id+1]);
+		local toUp = table.Copy(tile[id]);
+		self[level][x][y][id] = toDown;
+		self[level][x][y][id+1] = toUp;
+		self:Sort(level, x, y);
+		if (SF.editorPanel) then
+			SF.editorPanel:RefreshTiles();
+		end;	
+	end;
+end;
+
+function SF.world:ToBottom(level, x, y, id)
+	local tile = self:GetTile(level, x, y);
+	local toBottom = table.Copy(tile[id]);
+	self[level][x][y][id] = nil;
+	table.insert(self[level][x][y], toBottom);
+	self:Sort(level, x, y);
+	if (SF.editorPanel) then
+		SF.editorPanel:RefreshTiles();
+	end;	
+end;
+
+function SF.world:ToTop(level, x, y, id)
+	local tile = self:GetTile(level, x, y);
+	local toTop = table.Copy(tile[id]);
+	self[level][x][y][id] = nil;
+	table.insert(self[level][x][y], 1, toTop);
+	self:Sort(level, x, y);
+	if (SF.editorPanel) then
+		SF.editorPanel:RefreshTiles();
+	end;	
+end;
+
+function SF.world:DefaultTile()
+	return {};
+end;
+
+function SF.world:GetRandomSpace()
+	return table.Random(self.space);
+end;
+
+function SF.world:SetWorld(worldData)
+	self.stored = worldData;
+end;
+
+function SF.world:CheckFile()
+	if (!file.Read("world.txt")) then
+		self.stored = {};
+		file.Write("world.txt", Json.Encode(self.stored).." ");
+	end;
+end;
+
+function SF.world:Send(player)
+	if (!self.netQueue[player:SteamID()]) then
+		self.netQueue[player:SteamID()] = util.Compress(glon.encode(self.stored));
+		print(self.netQueue[player:SteamID()]);
+	end;
+	SF:Net(player, "WorldInit", {self.stored});
+end;
+
+function SF.world:Request()
+	SF:StatusMessage("Networking World");
+	SF:Net("WorldRequest", {})
+end;
+
+SF:NetHook("WorldRequest", function(player, data)
+	SF.world:Send(player);
+end);
+
+SF:NetHook("WorldInit", function(data, len)
+	SF.world:SetWorld(data[1]);
+	SF:StatusMessage(false);
+end);

@@ -1,0 +1,16 @@
+"Gamemode"
+{
+	"name"		"Sassilization"
+	"version"	"09.12.07"
+
+	"author_name"	"Sassafrass"
+	"author_email"	""
+	"author_url"	""
+	
+	"info"		"A Gmod MMO RTS: Conquer or Be Conquered."
+	"hide"		"0"
+	"mappattern"
+	{
+		"1"	"^sa_"
+	}
+}

@@ -1,0 +1,5 @@
+"gamemode"
+{
+	"base"		"base"
+	"title"		"Slidefuse RTS"
+}

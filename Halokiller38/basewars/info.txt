@@ -1,0 +1,25 @@
+"Gamemode"
+{
+	"name"		"Base Wars"
+	"version"	"2.0"
+
+	"author_name"	"Jake Wall"
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+  
+      "mappattern"
+        {
+			"1" "^rpdm_"
+
+        }
+
+        "selectable"	"1"
+        "description"	"N/A"
+
+
+}
+

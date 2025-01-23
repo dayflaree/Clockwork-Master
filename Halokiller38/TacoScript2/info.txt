@@ -1,0 +1,13 @@
+"Gamemode"
+{
+	"name"		"TacoScript 2"
+	"version"	"1"
+
+	"author_name"	""
+	"author_email"	""
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+}

@@ -1,0 +1,2 @@
+Plugins work the same way as modules, and have the same folder structure.
+You can even have plugins within plugins, and so forth!

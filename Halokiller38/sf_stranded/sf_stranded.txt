@@ -1,0 +1,5 @@
+"gamemode"
+{
+	"base"		"sf_base"
+	"title"		"Slidefuse Stranded"
+}

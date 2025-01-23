@@ -1,0 +1,1 @@
+Entities should use cl_auto, sh_auto and sv_auto instead of the usual init, shared and cl_init names.

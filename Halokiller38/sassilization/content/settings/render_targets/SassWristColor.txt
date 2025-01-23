@@ -1,0 +1,6 @@
+"SassWristColor"
+{
+	"Name"		"SassWristColor"
+	"Width"		"128"
+	"Height"	"128"
+}

@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"Nuclear Roleplay"
+	"info"			"A roleplaying game based on apocalyptic events that destroyed the U.S."
+	"version"		"1.0"
+	"author_url"	"http://jakewall.net"
+	"author_name"	"Daz"
+	"author_email"	"jake@sf-n.com"
+}

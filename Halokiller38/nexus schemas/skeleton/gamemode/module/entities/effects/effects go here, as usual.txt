@@ -1,0 +1,1 @@
+The main effect file should be called cl_auto.lua, not init.lua like usual.

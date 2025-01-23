@@ -1,0 +1,1 @@
+Weapons should use sh_auto.lua instead of the usual shared.lua file name.

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="outside" tilewidth="16" tileheight="16">
+  <image source="../../../maps/outside.png" width="128" height="1312"/>
+ </tileset>
+ <tileset firstgid="657" name="collision" tilewidth="16" tileheight="16">
+  <image source="../../../maps/collision.png" width="16" height="48"/>
+  <tile id="0">
+   <properties>
+    <property name="collision" value="walk"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collision" value="water"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collision" value="solid"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="visible" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyl1EkPATEUB/CamANij/1gTewShAQny8Xy3blx48bH8Ecb1bSdh8PvdTLe+9dYevQxdoKjx+qwF6++M1zgCjfLKvJMr4scdf9fiRx1/1+pOQGUoCTkmGcpvXGUhCRpyaP05lDykoIlj9JbRRlCH+ZQseSVec+Az9R4r8s9rtsoM5jAGlrg12Q97jV5z5TPdJx3jsM+r58s783W4zKPXAL3j9lvhVGWsIKIJEp5fo0UyhZ2kJZkDHm670vNS2uY8rwUUWJcFxbQgxIhb4//7kE5B+ooWW4EGxhDg5Anzhc515X4ib9DMa87/+Q86mdkOp/FPt+uYl6sdxPbUfY=
+  </data>
+ </layer>
+ <layer name="collision" width="20" height="20" opacity="0.52">
+  <data encoding="base64" compression="zlib">
+   eJybzMTAMJkIPBGKiVFLC/MmUohpZR6l5hDrXnx2EaN2KJpHibqRiKmdf0g1j5A9A+0+WppHTB6gxC3UThPUMg8Ao73mxw==
+  </data>
+ </layer>
+</map>

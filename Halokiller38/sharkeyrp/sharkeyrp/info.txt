@@ -1,0 +1,18 @@
+"Gamemode"
+{
+    "name"  "Sharkey RP"
+    "version"   "-1"
+
+    "author_name"   "Sharkey & Xeronsyl"
+    "author_email"  ""
+    "author_url"    "http://slidefuse.net"
+
+    "icon"  ""
+    "info"  ""
+    "hide"  "0"
+
+	"mappattern"
+	{
+		"1"		"^rp_"
+	}
+}

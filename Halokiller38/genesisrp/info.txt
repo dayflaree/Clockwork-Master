@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"Genesis Roleplay"
+	"info"			""
+	"version"		"0.1 Alpha"
+	"author_url"	""
+	"author_name"	"Kelse"
+	"author_email"	"jake@sf-n.net"
+}

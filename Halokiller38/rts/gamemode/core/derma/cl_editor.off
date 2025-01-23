@@ -1,0 +1,395 @@
+--[[
+	© 2012 Slidefuse.net do not share, re-distribute or modify
+	without permission of its author (spencer@sf-n.com).
+--]]
+
+SF.editor = {};
+
+local PANEL = {};
+local lastRot = 0;
+
+function PANEL:Init()
+	self.level = "FLOOR";
+	self.currentTile = {x = 1, y = 1};
+	self.maxTile = {x = 255, y = 255};
+
+	self.tiles = {};
+
+	self.maxX = math.floor((ScrW()-258)/48);
+	self.maxY = math.floor(ScrH()/48);
+
+	local xPos = 258;
+	local yPos = 0;
+	for x = 1, self.maxX do
+		for y = 1, self.maxY do
+			if (!self.tiles[x]) then
+				self.tiles[x] = {};
+			end;
+			local panel = vgui.Create("SFeditor_worldTile", self);
+			panel:SetPos(xPos, yPos);
+
+			self.tiles[x][y] = panel;
+
+			yPos = yPos + 48;
+		end;
+		yPos = 0;
+		xPos = xPos + 48;
+	end;
+
+	self.tabBar = vgui.Create("DPropertySheet", self);
+	
+	
+	self.worldPanel = vgui.Create("DPanelList", self.tabBar);
+	self.worldPanel:SetAutoSize(true);
+	self.worldPanel:SetSpacing(5);
+
+		local level_floor = vgui.Create("DButton");
+			level_floor:SetText("Floor");
+			level_floor.DoClick = function(p)
+				self:SetLevel("FLOOR");
+			end;
+		self.worldPanel:AddItem(level_floor);
+
+		local level_utility = vgui.Create("DButton");
+			level_utility:SetText("Utility");
+			level_utility.DoClick = function(p)
+				self:SetLevel("UTIL");
+			end;
+		self.worldPanel:AddItem(level_utility);
+
+		local level_objs = vgui.Create("DButton");
+			level_objs:SetText("Objects");
+			level_objs.DoClick = function(p)
+				self:SetLevel("OBJS");
+			end;
+		self.worldPanel:AddItem(level_objs);
+			
+		local level_all = vgui.Create("DButton");
+			level_all:SetText("View Layout");
+			level_all.DoClick = function(p)
+				self:SetLevel("VIEW");
+			end;
+		self.worldPanel:AddItem(level_all);	
+
+		local turfItems = vgui.Create("DPanelList");
+			turfItems:EnableHorizontal(true);
+			turfItems:SetAutoSize(true);
+			turfItems:SetSpacing(4);
+			
+
+		local turfTree = vgui.Create("DTree");
+			for k, v in pairs(SF.tile.folders) do
+				local node = turfTree:AddNode(k);
+				node.text = k;
+			end;
+			/*turfTree:SetWide(self.worldPanel:GetWide());
+			turfTree:SetMinimumSize(256, ScrH()/3);*/
+			turfTree.DoClick = function()
+				turfItems:Clear();
+				for k, v in pairs(SF.tile:GetAll()) do
+					if (v.folder == turfTree:GetSelectedItem().text) then
+						local dImage = vgui.Create("DImageButton");
+						dImage:SetMaterial("sf_ss13/"..v.path);
+						dImage:SetToolTip(v.uniqueID);
+						dImage:SetSize(64, 64);
+						dImage.DoClick = function()
+							if (SF.editor.current == v.uniqueID) then
+								SF.editor.current = false;
+							else
+								SF.editor.current = v.uniqueID;
+							end;
+							lastRot = 0;
+						end;
+						turfItems:AddItem(dImage);
+					end;
+				end;
+				turfItems:SizeToContents();
+			end;
+			turfTree:SetTall(256);
+		self.worldPanel:AddItem(turfTree);
+		self.worldPanel:AddItem(turfItems);	
+
+
+
+	self.tabBar:AddSheet("World", self.worldPanel, nil, false, false, "");
+end;
+
+function PANEL:SetLevel(s)
+	self.level = s;
+end;
+
+function PANEL:Paint()
+	surface.SetDrawColor(Color(50, 50, 50));
+	surface.DrawRect(0, 0, ScrW(), ScrH());
+
+	draw.SimpleText("Level: "..self.level..";   Position: "..self.currentTile.x.."X "..self.currentTile.y.."Y", "Trebuchet24", 2, ScrH() - 24);
+end;
+
+function PANEL:Think()
+	if (self.nextThink and CurTime() >= self.nextThink) then
+		if (input.IsKeyDown(KEY_W)) then
+			self.currentTile.y = math.Clamp(self.currentTile.y-1, 1, self.maxTile.y-self.maxY);
+		end;
+		if (input.IsKeyDown(KEY_S)) then
+			self.currentTile.y = math.Clamp(self.currentTile.y+1, 1, self.maxTile.y-self.maxY);
+		end;
+		if (input.IsKeyDown(KEY_A)) then
+			self.currentTile.x = math.Clamp(self.currentTile.x-1, 1, self.maxTile.x-self.maxX);
+		end;
+		if (input.IsKeyDown(KEY_D)) then
+			self.currentTile.x = math.Clamp(self.currentTile.x+1, 1, self.maxTile.x-self.maxX);
+		end;
+		
+		/*local xTile = 1;
+		local yTile = 1;
+		for x = self.currentTile.x, math.Clamp(self.currentTile.x + self.maxX, 1, self.maxX) do
+			 for y = self.currentTile.y, math.Clamp(self.currentTile.y + self.maxY, 1, self.maxY) do
+			 	self.tiles[xTile][yTile]:SetTile(SF.world:GetTile(x, y));
+			 	self.tiles[xTile][yTile]:SetWorld(x, y);
+			 	yTile = yTile + 1;
+			 end;
+			 yTile = 1;
+			 xTile = xTile + 1;
+		end;	
+		*/
+
+		
+		self:RefreshTiles();
+		self.nextThink = CurTime() + 0.025;
+
+
+	end;
+	if (!self.nextThink) then
+		self.nextThink = CurTime() + 0.025;
+	end;
+
+
+end;
+
+function PANEL:PerformLayout()
+	self:SetSize(ScrW(), ScrH());
+	//self:SetPos(0, 0);
+	self.tabBar:StretchToParent(2, 2, ScrW()-256, 26);
+	//self.tabBar:SetSize(256, ScrH());
+end;
+
+
+function PANEL:RefreshTiles()
+	for x = 1, self.maxX do
+		for y = 1, self.maxY do
+			self.tiles[x][y]:SetTile(SF.world:GetTile(self.level, self.currentTile.x+x-1, self.currentTile.y+y-1));
+			self.tiles[x][y]:SetWorld(self.currentTile.x+x-1, self.currentTile.y+y-1);
+		end;
+	end;
+end;
+
+derma.DefineControl("SFeditor", "World Editor", PANEL, "DPanel");
+
+
+local PANEL = {};
+
+function PANEL:Init()
+	self:SetMouseInputEnabled(true);
+end;
+
+function PANEL:GetLevel()
+	return self:GetParent().level;
+end;
+
+function PANEL:Think()
+	if (!self.bgScroll) then
+		self.bgScroll = CurTime();
+	end;
+
+	if (CurTime() >= self.bgScroll) then
+		self.backgroundMaterial = SF.world:GetRandomSpace();
+		self.bgScroll = CurTime() + math.Rand(1, 60);
+	end;
+end;
+
+function PANEL:Paint()
+	if (self.backgroundMaterial) then
+		surface.SetMaterial(self.backgroundMaterial);
+		surface.SetDrawColor(Color(255, 255, 255));
+		surface.DrawTexturedRect(0, 0, 48, 48);
+	end;
+
+	if (self:GetLevel() == "UTIL") then
+		local floor = SF.world:GetTile("FLOOR", self.tilePos.x, self.tilePos.y);
+		floor = floor[table.Count(floor)]
+		if (floor and floor.uniqueID) then
+			local tileData = SF.tile:Get(floor.uniqueID);
+			surface.SetMaterial(tileData.material);
+			surface.SetDrawColor(Color(255, 255, 255, 125));
+			
+			surface.DrawTexturedRectRotated(24, 24, 48, 48, SF.world:Rot(floor.rot));
+		end;
+	end;
+
+	if (self:GetLevel() == "OBJS") then
+		local floors = SF.world:GetTile("FLOOR", self.tilePos.x, self.tilePos.y);
+		for i, floor in pairs(floors) do
+			if (floor and floor.uniqueID) then
+				local tileData = SF.tile:Get(floor.uniqueID);
+				surface.SetMaterial(tileData.material);
+				surface.SetDrawColor(Color(255, 255, 255));
+				
+				surface.DrawTexturedRectRotated(24, 24, 48, 48, SF.world:Rot(floor.rot));
+			end;
+		end;
+
+		local floor = SF.world:GetTile("UTIL", self.tilePos.x, self.tilePos.y);
+		floor = floor[table.Count(floor)]
+		if (floor and floor.uniqueID) then
+			local tileData = SF.tile:Get(floor.uniqueID);
+			surface.SetMaterial(tileData.material);
+			surface.SetDrawColor(Color(255, 255, 255, 125));
+			
+			surface.DrawTexturedRectRotated(24, 24, 48, 48, SF.world:Rot(floor.rot));
+		end;
+	end;
+
+	if (self:GetLevel() == "VIEW") then
+		local floor = SF.world:GetTile("FLOOR", self.tilePos.x, self.tilePos.y);
+		floor = floor[table.Count(floor)]
+		if (floor and floor.uniqueID) then
+			local tileData = SF.tile:Get(floor.uniqueID);
+			surface.SetMaterial(tileData.material);
+			surface.SetDrawColor(Color(255, 255, 255));
+			
+			surface.DrawTexturedRectRotated(24, 24, 48, 48, SF.world:Rot(floor.rot));
+		end;
+
+		local floor = SF.world:GetTile("OBJS", self.tilePos.x, self.tilePos.y);
+		for i, tileInfo in pairs(floor) do
+			local tileData = SF.tile:Get(tileInfo.uniqueID);
+			surface.SetMaterial(tileData.material);
+			surface.SetDrawColor(Color(255, 255, 255));
+			
+			surface.DrawTexturedRectRotated(24, 24, 48, 48, SF.world:Rot(tileInfo.rot));
+		end;
+	else 
+		if (self.tileData) then
+			for i, tileInfo in pairs(self.tileData) do
+				local tileData = SF.tile:Get(tileInfo.uniqueID);
+				surface.SetMaterial(tileData.material);
+				surface.SetDrawColor(Color(255, 255, 255));
+				
+				surface.DrawTexturedRectRotated(24, 24, 48, 48, SF.world:Rot(tileInfo.rot));
+			end;
+		else
+			surface.SetDrawColor(Color(255, 0, 0, 25));
+			surface.DrawLine(0, 0, 48, 48);
+		end;
+	end;
+
+	if (self.drawColor) then
+		self.drawColor.a = 20;
+		surface.SetDrawColor(self.drawColor);
+		surface.DrawRect(0, 0, 48, 48);
+	end;
+end;
+
+function PANEL:SetWorld(x, y)
+	self.tilePos = {x = x, y = y};
+end;
+
+function PANEL:SetTile(tileData)
+	self.tileData = tileData;
+end;
+
+function PANEL:PerformLayout()
+	self:SetSize(48, 48);
+end;
+
+function PANEL:OnCursorEntered()
+	self.drawColor = Color(0, 255, 0);
+	if (input.IsMouseDown(MOUSE_LEFT)) then
+		if (SF.editor.current) then
+			SF.world:Append(self:GetLevel(), self.tilePos.x, self.tilePos.y, SF.editor.current);
+			if (lastRot) then
+				SF.world:SetRot(self:GetLevel(), self.tilePos.x, self.tilePos.y, id, lastRot);
+			end;
+		end;
+	end;
+
+	if (input.IsMouseDown(MOUSE_MIDDLE)) then
+		if (SF.editor.current) then
+			SF.world:Remove(self:GetLevel(), {x = self.tilePos.x, y = self.tilePos.y, uniqueID = SF.editor.current});
+		end;
+	end;
+end;
+
+function PANEL:OnCursorExited()
+	self.drawColor = nil;
+end;
+	
+function PANEL:OnMousePressed(mc)
+	if (mc == MOUSE_RIGHT) then
+		local context = DermaMenu(SF.editorPanel);
+		context:AddOption(self:GetLevel());
+		context:AddOption("X: "..self.tilePos.x.." Y:"..self.tilePos.y);
+
+		local children = 1;
+		if (self.tileData) then
+			for i, tile in ipairs(self.tileData) do
+				local tileData = SF.tile:Get(tile.uniqueID);
+				local sub = context:AddSubMenu(tileData.name);
+				children = children + 1;
+
+				local childs = context:GetChildren();
+
+				local iconImage = vgui.Create("DPanel", context);
+				iconImage:SetSize(16, 16);
+				iconImage:SetPos(3, (children*22)+3);
+
+				function iconImage:Paint(w, h)
+					surface.SetDrawColor(Color(255, 255, 255));
+					surface.SetMaterial(tileData.material);
+					surface.DrawTexturedRectRotated(8, 8, 16, 16, SF.world:Rot(tile.rot));
+				end;
+
+					sub:AddOption("Rotation: "..(tile.rot or "0"));
+
+					sub:AddSpacer();
+
+					sub:AddOption("Rotate CCW", function() lastRot = SF.world:Rotate(self:GetLevel(), tile.x, tile.y, i, -90) end);
+					sub:AddOption("Rotate CW", function() lastRot = SF.world:Rotate(self:GetLevel(), tile.x, tile.y, i, 90) end);
+
+					sub:AddSpacer();
+
+					sub:AddOption("Remove", function() SF.world:Remove(self:GetLevel(), tile) end);
+					
+					sub:AddSpacer();
+
+					sub:AddOption("Move Up", function() SF.world:MoveUp(self:GetLevel(), tile.x, tile.y, i) end);
+					sub:AddOption("Move Down", function() SF.world:MoveDown(self:GetLevel(), tile.x, tile.y, i) end);
+
+					sub:AddSpacer();
+
+					sub:AddOption("To Top", function() SF.world:ToTop(self:GetLevel(), tile.x, tile.y, i) end);
+					sub:AddOption("To Bottom", function() SF.world:ToBottom(self:GetLevel(), tile.x, tile.y, i) end);
+
+			end;
+		end;
+		context:Open();
+	end;
+
+	if (mc == MOUSE_LEFT) then
+		if (SF.editor.current) then
+			local id = SF.world:Append(self:GetLevel(), self.tilePos.x, self.tilePos.y, SF.editor.current);
+			if (lastRot) then
+				SF.world:SetRot(self:GetLevel(), self.tilePos.x, self.tilePos.y, id, lastRot);
+			end;
+		end;
+	end;
+
+	if (mc == MOUSE_MIDDLE) then
+		if (SF.editor.current) then
+			SF.world:Remove(self:GetLevel(), {x = self.tilePos.x, y = self.tilePos.y, uniqueID = SF.editor.current});
+		end;
+	end;
+
+end;
+
+derma.DefineControl("SFeditor_worldTile", "WorldIcon", PANEL, "DPanel");

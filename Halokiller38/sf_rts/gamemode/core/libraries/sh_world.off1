@@ -1,0 +1,188 @@
+--[[
+	© 2012 Slidefuse.net do not share, re-distribute or modify
+	without permission of its author (spencer@sf-n.com).
+--]]
+
+SF.world = {};
+SF.world.stored = {};
+SF.world.netQueue = {};
+
+SF.world.space = {};
+for i = 0, 9 do
+	SF.world.space[i+1] = Material("sf_ss13/turf/space/"..i..".png");
+end;
+
+function SF.world:Generate()
+	self:CheckFile();
+	self:Load();
+end;
+
+function SF.world:Load()
+	local contents = file.Read("world.txt");
+	self.stored = Json.Decode(contents);
+end;
+
+function SF.world:Save()
+	file.Write("world.txt", Json.Encode(self.stored).." ");
+end;
+
+function SF.world:GetTile(x, y)
+	if (!self.stored[x] or !self.stored[x][y]) then
+		return self:DefaultTile();
+	end;
+	return self.stored[x][y];
+end;
+
+function SF.world:SetTile(x, y, tile)
+	if (!self.stored[x]) then
+		self.stored[x] = {};
+	end;
+	if (!self.stored[x][y]) then
+		self.stored[x][y] = self:DefaultTile();
+	end;
+	self.stored[x][y] = tile;
+end;
+
+function SF.world:Append(x, y, tile)
+	if (!self.stored[x]) then
+		self.stored[x] = {};
+	end;
+	if (!self.stored[x][y]) then
+		self.stored[x][y] = self:DefaultTile();
+	end;
+	if (!self:HasTile(x, y, tile)) then
+		table.insert(self.stored[x][y], self:MakeTile(x, y, tile));
+	end;
+end;
+
+function SF.world:MakeTile(x, y, uniqueID)
+	return {uniqueID = uniqueID, x = x, y = y};
+end;
+
+function SF.world:HasTile(x, y, uniqueID)
+	for k, v in pairs(self:GetTile(x, y)) do
+		if (v.uniqueID == uniqueID) then
+			return true;
+		end;
+	end;
+	return false;
+end;
+
+function SF.world:Sort(x, y)
+	if (self:GetTile(x, y)) then
+		//table.SortByKey(self.stored[x][y]);
+		local newTable = {};
+		local i = 1;
+		for k, v in pairs(self:GetTile(x, y)) do
+			newTable[i] = v;
+			i = i + 1;
+		end;
+		self:SetTile(x, y, newTable);
+	end;
+end;
+
+function SF.world:Remove(tile)
+	for k, v in pairs(self:GetTile(tile.x, tile.y)) do
+		if (v.uniqueID == tile.uniqueID) then
+			self.stored[tile.x][tile.y][k] = nil;
+			self:Sort(tile.x, tile.y);
+			if (SF.editorPanel) then
+				SF.editorPanel:RefreshTiles();
+			end;
+		end;
+	end;
+end;
+
+function SF.world:MoveUp(x, y, id)
+	if (id > 1) then
+		local tile = self:GetTile(x, y);
+		local toDown = table.Copy(tile[id-1]);
+		local toUp = table.Copy(tile[id]);
+		self.stored[x][y][id] = toDown;
+		self.stored[x][y][id-1] = toUp;
+		self:Sort(x, y);
+		SF.editorPanel:RefreshTiles();
+	end;
+end;
+
+function SF.world:MoveDown(x, y, id)
+	local tile = self:GetTile(x, y);
+	if (id < #tile) then
+		local toDown = table.Copy(tile[id+1]);
+		local toUp = table.Copy(tile[id]);
+		self.stored[x][y][id] = toDown;
+		self.stored[x][y][id+1] = toUp;
+		self:Sort(x, y);
+		SF.editorPanel:RefreshTiles();
+	end;
+end;
+
+function SF.world:ToBottom(x, y, id)
+	local tile = self:GetTile(x, y);
+	local toBottom = table.Copy(tile[id]);
+	self.stored[x][y][id] = nil;
+	table.insert(self.stored[x][y], toBottom);
+	self:Sort(x, y);
+	SF.editorPanel:RefreshTiles();
+end;
+
+function SF.world:ToTop(x, y, id)
+	local tile = self:GetTile(x, y);
+	local toTop = table.Copy(tile[id]);
+	self.stored[x][y][id] = nil;
+	table.insert(self.stored[x][y], 1, toTop);
+	self:Sort(x, y);
+	SF.editorPanel:RefreshTiles();
+end;
+
+function SF.world:Reorder(x, y, current, position)
+	if (!self.stored[x]) then
+		return false;
+	end;
+	if (!self.stored[x][y]) then
+		return false;
+	end;
+	local move = self.stored[x][y];
+	//table.insert(self.stored[x][y], move, )
+end;
+
+function SF.world:DefaultTile()
+	return {};
+end;
+
+function SF.world:GetRandomSpace()
+	return table.Random(self.space);
+end;
+
+function SF.world:SetWorld(worldData)
+	self.stored = worldData;
+end;
+
+function SF.world:CheckFile()
+	if (!file.Read("world.txt")) then
+		self.stored = {};
+		file.Write("world.txt", Json.Encode(self.stored).." ");
+	end;
+end;
+
+function SF.world:Send(player)
+	if (!self.netQueue[player:SteamID()]) then
+		self.netQueue[player:SteamID()] = util.Compress(glon.encode(self.stored));
+		print(self.netQueue[player:SteamID()]);
+	end;
+	SF:Net(player, "WorldInit", {self.stored});
+end;
+
+function SF.world:Request()
+	SF:StatusMessage("Networking World");
+	SF:Net("WorldRequest", {})
+end;
+
+SF:NetHook("WorldRequest", function(player, data)
+	SF.world:Send(player);
+end);
+
+SF:NetHook("WorldInit", function(data, len)
+	SF.world:SetWorld(data[1]);
+	SF:StatusMessage(false);
+end);

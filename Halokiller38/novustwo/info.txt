@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"Novus Two"
+	"info"			"A roleplaying game based on apocalyptic events."
+	"version"		"1.0"
+	"author_url"	"http://kuropixel.com"
+	"author_name"	"kuropixel"
+	"author_email"	"kuropixel@gmail.com"
+}

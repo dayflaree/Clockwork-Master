@@ -1,0 +1,7 @@
+[Upgrading a copy of Nexus]
+
+o Delete the data folder from this archive (within garrysmod/) so that you do not overwrite your existing MySQL configuration.
+o Extract the files in this archive to just outside of your garrysmod/ directory and overwrite any existing files.
+o When you overwrite existing files, make sure to always overwrite everything, including external modules.
+
+*** Thank you for purchasing or using a product from Studio Sixteen. ***

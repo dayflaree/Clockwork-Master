@@ -1,0 +1,12 @@
+"Gamemode"
+{
+	"name"		"Gmod Stranded"
+	"version"	"2.2.1"
+
+	"author_name"	"jA_cOp, prop_dynamic, Chewgum, Wokkel"
+	"author_email"	""
+	"author_url"	""
+	
+	"info"		""
+	"hide"		"0"
+}

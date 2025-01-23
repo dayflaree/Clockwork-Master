@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"Starship Troopers"
+	"info"			"Starship Troopers roleplay."
+	"version"		""
+	"author_url"	""
+	"author_name"	""
+	"author_email"	""
+}

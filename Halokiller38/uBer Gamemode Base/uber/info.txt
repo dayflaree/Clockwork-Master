@@ -1,0 +1,9 @@
+"Gamemode"
+{
+	"name"			"Uber Base"
+	"info"			"A simple but powerful gamemode base."
+	"version"		"1.0"
+	"author_url"	"http://www.patdaman.com.com"
+	"author_name"	"pat9011"
+	"author_email"	"pat9011@gmail.com"
+}
