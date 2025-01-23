@@ -1,0 +1,9 @@
+ENT.Type = "anim"
+ENT.Base = "base_anim"
+ENT.PrintName = "Fridge Item"
+ENT.Author = "_Undefined"
+ENT.Contact = ""
+ENT.Purpose = "Holder ent for the Fridge!"
+ENT.Instructions = "Press E to gain health."
+ENT.Spawnable = false
+ENT.AdminSpawnable = false

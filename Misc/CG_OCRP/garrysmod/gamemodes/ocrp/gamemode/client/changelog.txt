@@ -1,0 +1,16 @@
+Saturday Update #1
+
+[ADD] Car dealer and garage now has a small preview of the car
+[ADD] Hydrualics on cars (it's per car, 25k for each car)
+[ADD] NPC talk now supports two "Yes" awnsers
+[ADD] Top 100 Germany radio station is back
+[ADD] Car auto-locks for owners buddys and fellow org members.
+[ADD] Protection on item now dissapears if the owner sets a price on it
+[ADD] Goverment voice radio, you have to be in a police car to hear.
+[ADD] Org names are now limited to 25 characters
+[ADD] Murcielago
+[ADD] Shelby GT
+//[ADD] Siren lights now stay on when you exit car, but sound turns off.
+[CHANGE] It's now more obvious that someone is typing.
+[FIX] /radio now logs correctly for admins
+[FIX] Minor and major exploits

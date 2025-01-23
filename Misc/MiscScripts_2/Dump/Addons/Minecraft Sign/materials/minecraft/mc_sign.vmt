@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "minecraft/mc_sign"
+	"$translucent" 1
+}

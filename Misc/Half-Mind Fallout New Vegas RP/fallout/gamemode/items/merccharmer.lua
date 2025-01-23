@@ -1,0 +1,12 @@
+ITEM.Name = "Mercenary Charmer Outfit";
+ITEM.Desc = "A faded teal suit jacket and pants with a gray shirt underneath, as well as a strange collar that protects the neck.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group018.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.BasePrice = 999;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group019/group018";

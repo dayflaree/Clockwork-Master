@@ -1,0 +1,13 @@
+"Gamemode"
+{
+	"name"		"HL2: TDS"
+	"version"	"1.0"
+
+	"author_name"	"_Undefined"
+	"author_email"	"admin@equinox-studios.co.uk"
+	"author_url"	"http://equinox-studios.co.uk"
+	
+	"icon"		""
+	"info"		""
+	"hide"		"0"
+}

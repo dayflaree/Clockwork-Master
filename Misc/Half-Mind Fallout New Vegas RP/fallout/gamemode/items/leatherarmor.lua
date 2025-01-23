@@ -1,0 +1,12 @@
+ITEM.Name = "Leather Armor";
+ITEM.Desc = "A set of armor made from some sort of brahmin leather. Offers weak bullet protection while somewhat capable of energy weapon protection.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group052.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 3;
+ITEM.Category = CATEGORY_ARMOR;
+ITEM.BasePrice = 999;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group052";

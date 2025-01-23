@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"			"MyBB Users"
+	"version"		"1.0"
+	"up_date"		"3rd October 2010"
+	"author_name"	"_Undefined"
+	"author_email"	"admin@equinox-studios.com"
+	"author_url"	"http://equinox-studios.com"
+	"info"			""
+}

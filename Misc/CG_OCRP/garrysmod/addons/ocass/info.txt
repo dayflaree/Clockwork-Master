@@ -1,0 +1,15 @@
+"AddonInfo"
+{
+	"name"		"Pulsar Effect"
+	"version"	"1.0"
+	"up_date"	"2nd July 2008"
+	"author_name"	"HuntsKikBut"
+	"author_email"	"admin@pulsareffect.com"
+	"author_url"	"http://www.pulsareffect.com/"
+	
+	"info"		"A modified version of ASS to work with PE."
+	
+	"GCFRequires"
+	{
+	}
+}

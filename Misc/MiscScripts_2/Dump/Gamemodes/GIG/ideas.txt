@@ -1,0 +1,6 @@
+List of ideas for GIG (taken from voice conversations):
+
+- Missions System
+- NPC System
+- Proper punishments for killing innocents etc.
+- No particular admin system. Votekick/ban only. Anything that a player should be kicked for will instead result in a punishment, making the act not worth doing.

@@ -1,0 +1,12 @@
+ITEM.Name = "Rancher's Outfit";
+ITEM.Desc = "Straight from New Canaan, this more formal attire seems to breathe that Mormon spirit. A button-up shirt, a belt and worn jeans.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group103.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.BasePrice = 999;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group103";

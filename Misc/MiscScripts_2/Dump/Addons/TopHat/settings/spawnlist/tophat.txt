@@ -1,0 +1,12 @@
+SpawnMenu
+{
+	Information
+	{
+		version		2
+		name		"Top Hat"
+	}
+	Entries
+	{
+		1		"models/Fibbs/tophat.mdl"
+	}
+}

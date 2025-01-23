@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"			"PreSpawnIntro"
+	"version"		"1"
+	"up_date"		""
+	"author_name"		"_Undefined"
+	"author_email"		""
+	"author_url"		""
+	"info"			""
+	"hide"			"0"
+}

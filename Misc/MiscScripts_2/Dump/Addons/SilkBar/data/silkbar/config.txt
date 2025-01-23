@@ -1,0 +1,38 @@
+"Groups"
+{
+	"1"
+	{
+		"name"		"Server Owner"
+		"color"		"228, 0, 0, 255"
+		"flags"		{ "rcon" }
+	}
+	
+	"2"
+	{
+		"name"		"Administrator"
+		"color"		"255, 93, 0, 255"
+		"flags"		{ "permaban" }
+	}
+	
+	"3"
+	{
+		"name"		"Moderator"
+		"color"		"67, 166, 0, 255"
+		"flags"		{ "kick" }
+	}
+	
+	"Respected"
+	{
+		
+	}
+	
+	"Guest"
+	{
+		
+	}
+	
+	"Banned"
+	{
+		
+	}
+}

@@ -1,0 +1,13 @@
+"Gamemode"
+{
+	"name"		"OCRP"
+	"version"	"1.0"
+
+	"author_name"	"Jake_1305 and Noobulator"
+	"author_email"	"jake1305@gmail.com"
+	"author_url"	""
+	
+	"icon"		""
+	"info"		""
+	"hide"		""
+}

@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"Dildo"
+	"version"			"1.0"
+	"up_date"			"A long time ago."
+	"author_name"		"_Undefined & Huntaa"
+	"author_email"		""
+	"author_url"		""
+	"info"				""
+	"override"			"0"
+}

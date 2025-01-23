@@ -1,0 +1,12 @@
+ITEM.Name = "Farmer's Overalls";
+ITEM.Desc = "A set of dirty clothing that you'd find quite common in most of the Wasteland.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group013.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.BasePrice = 999;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group013";

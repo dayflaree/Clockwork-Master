@@ -1,0 +1,14 @@
+ITEM.Name = "Legion Centurion Helm";
+ITEM.Desc = "A scrap metal helmet modelled after ancient Roman helmets. Worn by Legion Centurions.";
+ITEM.Model = "models/props_junk/cardboard_box004a.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.BasePrice = 999;
+ITEM.Headgear = true;
+ITEM.Equipped = false;
+ITEM.BonemergeModel = "models/lazarusroleplay/headgear/factions/legion/fullhats01.mdl";
+ITEM.Skin = 0;
+ITEM.Bodygroup = 0;
+ITEM.BodygroupValue = 9;

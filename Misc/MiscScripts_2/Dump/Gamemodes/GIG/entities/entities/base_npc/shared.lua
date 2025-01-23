@@ -1,0 +1,1 @@
+ENT.Base = "jw_base_npc" ENT.Type = "ai"ENT.PrintName		= "jw_base_npc"ENT.Author			= "Jw"ENT.Contact			= "Jw1342@gmail.com"  ENT.Purpose			= "Create Custum NPCS"ENT.Instructions	= "None" function ENT:OnRemove()returnendfunction ENT:SetAutomaticFrameAdvance( bUsingAnim ) 	self.AutomaticFrameAdvance = bUsingAnim end

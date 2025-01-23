@@ -1,0 +1,12 @@
+ITEM.Name = "Engineer's Jumpsuit";
+ITEM.Desc = "A tough jumpsuit made from some sort of combination of nylon and cloth. Laden with pockets, it has quite a few hundred year-old grease stains from head to toe.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group006.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.Clothing = true;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.BasePrice = 999;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group006";

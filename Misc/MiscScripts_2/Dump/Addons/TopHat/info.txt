@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"Top Hat"
+	"version"			"1.0"
+	"up_date"			"30th June 2009"
+	"author_name"		"Fibbs"
+	"author_email"		""
+	"author_url"		"http://fibbs.net"
+	"info"				"A Snazzy Top Hat"
+	"override"			"0"
+}

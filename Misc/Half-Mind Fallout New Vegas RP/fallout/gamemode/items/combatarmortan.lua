@@ -1,0 +1,14 @@
+ITEM.Name = "Tan Combat Armor";
+ITEM.Desc = "A set of combat armor used by infantry in the Great War. This set is a flat tan.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group012.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 3;
+ITEM.BasePrice = 999;
+ITEM.Clothing = true;
+ITEM.Category = CATEGORY_ARMOR;
+ITEM.Skin = 1;
+ITEM.DropSkin = 1;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group012";

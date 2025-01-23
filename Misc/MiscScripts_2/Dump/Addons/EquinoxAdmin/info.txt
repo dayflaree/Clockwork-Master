@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"		"EquinoxAdmin"
+	"version"	"3.0"
+	"up_date"	"19th October 2009"
+	"author_name"	"_Undefined"
+	"author_url"	"http://equinox-studios.com"
+	"author_email"	"admin@equinox-studios.com"
+	"info"		"Simple, versatile admin mod."
+}

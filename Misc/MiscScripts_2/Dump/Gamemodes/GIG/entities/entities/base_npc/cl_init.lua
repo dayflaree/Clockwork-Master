@@ -1,0 +1,1 @@
+include("shared.lua")include("cl_gui.lua")function ENT:Draw()	self.Entity:DrawModel()end function ENT:DrawTranslucent() 	self:Draw()end

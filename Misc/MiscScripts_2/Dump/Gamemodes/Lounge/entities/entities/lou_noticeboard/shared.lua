@@ -1,0 +1,9 @@
+ENT.Type       		= "anim"
+ENT.Base       		= "base_anim"
+ENT.PrintName      	= "3D HTML Test"
+ENT.Author    		= "_Undefined"
+ENT.Contact  		= "admin@ubs-clan.co.uk"
+ENT.Purpose  		= "Test"
+ENT.Instructions    = ""
+ENT.Spawnable      	= false
+ENT.AdminSpawnable  = false

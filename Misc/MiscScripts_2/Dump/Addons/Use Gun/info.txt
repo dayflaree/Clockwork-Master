@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"			"Use Gun"
+	"version"		"1.0"
+	"up_date"		"16th January 2011"
+	"author_name"	"_Undefined"
+	"author_url"	"http://equinox-studios.com"
+	"author_email"	"admin@equinox-studios.com"
+	"info"			"Allows you to 'use' stuff from a distance."
+}

@@ -1,0 +1,692 @@
+
+|IRiS| Cookie |PG|: That when you spawn a weapon, 
+Press and hold Tab on it, and click on Pick Up, 
+that it goes to your inventory. Thats fine. Once you click on it in your inventory and 
+select Use, you get the sound indicating you equipped it, but you do not get the weapon. 
+The same thing applies if you Tab it, right click, and select Use, you get the sound, but no gun
+
+Well then, what I request from you first off, is a new Ranking Trust System. What I want to see is the Hands Swep, being able to pick up props. 
+Then a Grav Gun trust, which also limits you to spawning  5 Props. A Phys Trust which limits you to spawning 10 Props. 
+A Seperate Prop Trust which lets you spawn 5 Props, 
+A seperate grav / phys trust which doesnt let you spawn props, and then Tool Trust, which gives you all tools and 100 Props
+
+1/25/09 Chance:
+
+Otoris: Well, that is about all I can take of that sever today... I am going to try and put a dent in somethings
+Otoris: Hopefully Excalliber will stick around.
+|IRiS| Chance: Yea
+|IRiS| Chance: I had to restart the server really to add Excalliber as admin
+|IRiS| Chance: And had to make an excuse..
+Otoris: :D
+|IRiS| Chance: Turns out that he gave me the wrong STEAM ID yesterday.....
+Otoris: hmmm
+|IRiS| Chance: ...............
+|IRiS| Chance: And someone has been running around I guess
+|IRiS| Chance: with that steam ID
+|IRiS| Chance: who had admin access...
+Otoris: lol probably
+|IRiS| Chance: w/e
+Otoris: Congrats on making officer btw
+|IRiS| Chance: lol..
+|IRiS| Chance: Cookie is so full of it
+Otoris: :)
+|IRiS| Chance: The admin has promoted the founder
+|IRiS| Chance claps
+Otoris: How that happened no one will ever know
+|IRiS| Chance: I am glad that I'm finally done with that concept art.
+|IRiS| Chance: It really consumed a lot of my time.
+|IRiS| Chance: But it was needed in order for some kind of visual
+|IRiS| Chance: representation of my ideas.
+Otoris: Looks good,
+Otoris: I totally forgot what you said the other day about the buttons on the top btw, did you want to keep the current tabs like we have or make them buttons like it looks like in your Concept art
+|IRiS| Chance: Can you make them to be buttons
+|IRiS| Chance: or would that be too uch work
+Otoris: Sure I'll try,
+|IRiS| Chance: I'm also going to speak to someone who is experienced in sweps
+|IRiS| Chance: to see if we can get a pipboy swep or something
+|IRiS| Chance: that would bring up
+|IRiS| Chance: screens when pulle dout
+|IRiS| Chance: or something?
+Otoris: Pipboy swep...
+Otoris: hmmm
+Otoris: Screens when pulled out, meaning the vgui?
+|IRiS| Chance: yea
+Otoris: I could do that easily, and if you wanted you can add the v model of the pipboy, I would just need a way to tell the vgui to fit to the pipboy screen
+|IRiS| Chance: ill get working on that
+|IRiS| Chance: see what i can come up with
+Otoris: Okay, want me to make a temporary swep that pulls up the vgui?
+|IRiS| Chance: Ah sure
+|IRiS| Chance: that'll be sweet
+|IRiS| Chance: also...
+|IRiS| Chance: im wondering if i can find someone that could make some kind of animation
+|IRiS| Chance: of a player pulling up  the pipboy just like in fallout 3
+Otoris: hmm
+Otoris: Oh that reminds me, I am going to check and see if Chernobyl script fixes npc animations, cause it looks like a relitively new script.
+|IRiS| Chance: Well it is a new script.
+|IRiS| Chance: It hasn't been released.
+|IRiS| Chance: (officially)
+|IRiS| Chance: Speaking of which
+|IRiS| Chance: can you take bits of ideas from there and implement them ?
+Otoris: Sure, which ideas were you hopeing to implement
+|IRiS| Chance: The inventory looks neat actually...
+|IRiS| Chance: as the small little icon on the screen
+|IRiS| Chance: that animates when running or walking
+|IRiS| Chance: is also pretty cool..
+Otoris: I could try the way the inventory shows you the item when you click on it, that was pretty cool, the grid would be quite the challange to fix up to where it works properly though,
+Otoris: And the animations on the hud is very doable
+|IRiS| Chance: yea
+Otoris cries
+Otoris: The npc animation script fixes 1 animation, which is the idle pistol other than that if you crouch idle it give the t-pose and when you move it looks like you are holding an smg D:
+|IRiS| Chance: smeh
+|IRiS| Chance: I was wondering if it was possible
+|IRiS| Chance: to correspond a picture with damage on each body part
+Otoris: one second, I need to check something in garrys code to answer that.
+Otoris: :O I just thought of a way to have damage show on your different body parts after see his code! And yes it is possible to correspond a picture with the damage on each body part, but I think it would need to be multiple images to work properly though?
+|IRiS| Chance: What did you find out?
+Otoris: This would take a little bit of time to work out but I figured that if there is a way to make a special lua bullet in all the sweps I can have it show individual bodypart damage
+|IRiS| Chance: interesting
+Otoris: after you take like 25% damage in a body part it would take away 25 hp in source health
+Otoris: Here is a thought, what if I added another option when you click on a item in your inventory that said details, when clicked it would open a menu ontop of the current menu and it would display a larger view of the prop, 360 rotation of some sort and details/description along with maybe a drop option ?
+|IRiS| Chance: actually thats a good idea...
+Otoris: Also show the weight of each item too
+Otoris: One more thing and I will quit bothering you :)
+|IRiS| Chance: lol
+Otoris: Do you want me to use the current hud concept you created except nicer?
+Otoris: lol
+|IRiS| Chance: oh man
+|IRiS| Chance: im working on a revised one right now actually
+|IRiS| Chance: so stay tuned :3
+Otoris: k
+|IRiS| Chance: it'll be about x1,000,000 times better
+|IRiS| Chance: :)
+Otoris: I am just worried about the shape of the head really
+|IRiS| Chance: lolll
+
+Wolly: 1/26/09:
+
+[RPD fan club] Wolly: How does it look?
+Otoris is now playing Garry's Mod. Click here to join.
+Otoris: Not quite there, I forgot to add the s to humans on the model paths lol
+[RPD fan club] Wolly: Lol
+[RPD fan club] Wolly: I'm rigging a BOS Soldier Now.
+[RPD fan club] Wolly: Should be done late tommorow/early wednesday
+Otoris: Sweet
+[RPD fan club] Wolly: You have the Enclave Soldier I made?
+Otoris: I think
+[RPD fan club] Wolly: kk
+Otoris: How long would it take to get the enums of the npc pistol animations, cause he still holds it like he is going to shoot himself in the hand lol
+Otoris: other than that it looks fine, even though the gravgun animations are a bit wonky...
+[RPD fan club] Wolly: I have it, from OTF's script...
+[RPD fan club] Wolly: one second
+Otoris: Also his head seems to lag a lot when I turn.
+Otoris: He holds the physgun like an smg also
+[RPD fan club] Wolly: That's true, but the NPC's really have no other hold type for the Gravgun.
+[RPD fan club] Wolly: NPCAnim.CitizenMaleAnim["pistolidle"] = 1
+NPCAnim.CitizenMaleAnim["pistolwalk"] = 6
+NPCAnim.CitizenMaleAnim["pistolrun"] = 10
+NPCAnim.CitizenMaleAnim["pistolcrouchwalk"] = 8
+NPCAnim.CitizenMaleAnim["pistolcrouch"] = 5
+NPCAnim.CitizenMaleAnim["pistolaimidle"] = 317-47
+NPCAnim.CitizenMaleAnim["pistolaimwalk"] = 340 - 22
+NPCAnim.CitizenMaleAnim["pistolaimrun"] = 319 - 3
+NPCAnim.CitizenMaleAnim["pistolaimcrouch"] = 271 + 87
+NPCAnim.CitizenMaleAnim["pistolaimcrouchwalk"] = 342
+NPCAnim.CitizenMaleAnim["pistolreload"] = 359
+NPCAnim.CitizenMaleAnim["pistolfire"] = 285
+Otoris: Wow, he holds is a bit better, but when he walks, crouch walks, runs he holds it like a smg with his hand infront of the muzzle
+[RPD fan club] Wolly: Yeah, Let me check if there is a pistol walking animation...
+Otoris: http://img403.imageshack.us/img403/3531/gmatomic0020ay9.jpg I am guessing this is normal too?
+[RPD fan club] Wolly: Yeah, oh, and
+[RPD fan club] Wolly: Welcome to the WONDERFUL world of NPC Animations
+Otoris: lol
+[RPD fan club] Wolly: Scratch that
+Otoris: http://img403.imageshack.us/img403/7393/gmatomic0019zd4.jpg
+[RPD fan club] Wolly: Human animations
+Otoris: Indeed
+Otoris: Is this really the best way to go?
+[RPD fan club] Wolly: Traditionally, all serious RP Scripts have used NPC Animations, It's hard to be serious without them.
+Otoris: How so?
+[RPD fan club] Wolly: Well.
+[RPD fan club] Wolly: They have the perfect animations for Roleplaying, because it seats the player inside a human element in a normally non-human atmosphere.
+[RPD fan club] Wolly: And player animations are just simply made for Sandbox, I'm quite, like, 200% sure that there's no holstering and non-offensive animations for them.
+Otoris: hmm, even though the animations are slow and look glitchy?
+Otoris: I already made a holster toggle script for player animations
+Otoris: Works pretty well
+[RPD fan club] Wolly: They're slow and glitchy because Garry can't code for shit. NPC Animations will look disgusting in third perosn
+[RPD fan club] Wolly: on a lan server
+[RPD fan club] Wolly: brb
+Otoris: They looked that way on taco scripts server too though
+Otoris: The basic animations like walk an idle kinda look fine, but when the player turns his head it is weird looking and when a player fires it looks weird glitchy like
+Otoris: Also when the player holds anyweapons of holdtypes smg1 he slides as he crouches
+Otoris: Looks really funny though lol
+Otoris: Eh, the player doesn't fire where he looks either it is like 15 degrees off
+[RPD fan club] Wolly is now Away.
+[RPD fan club] Wolly is now Online.
+[RPD fan club] Wolly: NPC Animations have never been too bad on Player -> Remote Server
+[RPD fan club] Wolly: NPC Animations take a turn downwards when they are Player -> Local Gameserver
+[RPD fan club] Wolly: Especially if it's listen.
+Otoris: Do you know of any gamemodes that have offical servers that use the animation script that are currently up and not dead unlike taco script?
+Otoris is now playing Garry's Mod. Click here to join.
+Otoris: Oh does cider use it?
+[RPD fan club] Wolly: I don't think so.
+[RPD fan club] Wolly: Uh...
+[RPD fan club] Wolly: Hmm.
+[RPD fan club] Wolly: Anything with Cakescript
+Otoris: I'll check and see if any servers with cakescript are running.
+Otoris: I only see one server with cakescript, and it is a listen server D:
+[RPD fan club] Wolly: Should work just as fine
+[RPD fan club] Wolly: I meant Local -> Local
+Otoris: It should?
+[RPD fan club] Wolly: Yeah.
+[RPD fan club] Wolly: Because it's Local -> Remote (Listen)
+Otoris: I'll give it a shot
+[RPD fan club] Wolly is now playing Garry's Mod. Click here to join.
+[RPD fan club] Wolly is now playing Garry's Mod. Click here to join.
+Otoris: The animations seem to look the same on this cake script server
+[RPD fan club] Wolly: Well, they're more serious than player animations
+[RPD fan club] Wolly: Some are really well done, and those are the commonly used ones.
+Otoris: hmmm
+Otoris: I'll keep looking for other animations script servers but it still doesn't look to professional shooting yourself in the hand lol
+Otoris: Cause the walking animations on idle are the same as if you use idle animations on the player
+[RPD fan club] Wolly: SPC.moh556=US=: [OOC]: btw who ever breaks the windows iwth raggdosl well get prem
+[RPD fan club] Wolly: lol
+Otoris: prem?
+Otoris: Oh
+[RPD fan club] Wolly: perm or something
+Otoris: permabanned
+Otoris: Well, I'll get chances opinion on the animations and he will give the final verdict
+[RPD fan club] Wolly: Alright
+Otoris: Hey do you have admin on that server?
+[RPD fan club] Wolly: Nope
+Otoris: Wanna see how I have the weapons animations setup? cause I don't think anyone on that server has a gun right now
+[RPD fan club] Wolly: Sure.
+
+1.30.09
+
+Chance/Web work/ Todo
+
+|IRiS| Chance: hey
+Otoris: Hai ^_^
+|IRiS| Chance: had a rough day today :C
+Otoris: :O
+Otoris: I had an off day today :C don't hate me, :D
+Otoris: Off day, not night
+|IRiS| Chance: no off days for you!
+|IRiS| Chance takes out whip
+|IRiS| Chance: :D
+Otoris understands where cookie gets his whip skills from
+|IRiS| Chance: :)
+|IRiS| Chance: we exceeded our goal for the month in donations
+Otoris: Anyways, have you gotten anywork done on the details (specific details) for the SPECIAL system yet? Or any work on the hud?
+|IRiS| Chance: by 148 percent :O
+Otoris: I know, that is amazing
+Otoris: who is the other doner, I know excaliber put in 40
+|IRiS| Chance: i actually converted the files to .tga format
+|IRiS| Chance: and know i have to convernt them it .vtf files
+Otoris: I c
+|IRiS| Chance: are ustill working on
+|IRiS| Chance: the inventory?
+|IRiS| Chance: or do you have a list of stuff you're working on atm?
+Otoris: working on the inventory, just finishing up some tiny details
+Otoris: Um, not really, still figuring out the best way to do the /write script -_- most annoying thing in the world
+Otoris: Inventory, /write, starting the two bars on the hud
+|IRiS| Chance: ah alright
+Otoris: I guess that is all I can think of
+|IRiS| Chance: u said you were going to fix the admin menu
+|IRiS| Chance: are u still working on that?
+Otoris: OH, and that
+Otoris: In fact I will finish everything on that tonight, possibly tomorrow
+Otoris: so it doesn't hang over my head like the grim reaper ...
+|IRiS| Chance: lol
+|IRiS| Chance: regarding the special system
+|IRiS| Chance: i have to speakl to cookie and excalliber about it tomrrow
+Otoris: okay
+Otoris is now playing Garry's Mod. Click here to join.
+|IRiS| Chance: i wonder what it takes to get contact with at least one more competent dev
+Otoris sighs
+Otoris: who knows
+|IRiS| Chance: btw that modeler or wheover that excalliber introduced never got back to me
+Otoris: wow
+Otoris: I thought for sure he would ditch...
+|IRiS| Chance: meh wasn't all too surprised
+Otoris: HAs he shown you any of his work?
+|IRiS| Chance: naw
+|IRiS| Chance: he said it 'dissapapeared"
+|IRiS| Chance: after one of his RP servers went down
+|IRiS| Chance: which is epic fail.
+|IRiS| Chance: Because that proves to me that this guy dosent backup his work
+|IRiS| Chance: or save it.
+Otoris: wow...
+Otoris: That has killed entire communities before
+|IRiS| Chance: yea..
+|IRiS| Chance: i mean tho c'mon
+|IRiS| Chance: that's a bit of a weak excuse imo
+|IRiS| Chance: mannn
+|IRiS| Chance: been so busy and tired lately,
+|IRiS| Chance: now that holiday is over and work and school
+|IRiS| Chance: driving me nuts L
+|IRiS| Chance: :|
+|IRiS| Chance: it's ok tho.. once we get everything organized.
+|IRiS| Chance: all we have to do then is priotize which tasks needed to be taken
+Otoris: right, and once we release this next huge update the server will start to semi take care of itself and grow on it's own
+|IRiS| Chance: i just dont want to jump into any ideas and see them fail half way.
+|IRiS| Chance: that wastes not only time but energy that could be put forth something prodcutive
+|IRiS| Chance: yea so im giong to try my best to pritoize the tasks i need to complete tomorrow
+|IRiS| Chance: and for the HUD .vtf files that is like 99 percent done
+|IRiS| Chance: i just have to dl a program that convets tga to vtf
+Otoris: Oh I meant to ask, do you want me to remove the name floating above players heads when you looks at them when we have this new hud?
+|IRiS| Chance: yea sure
+|IRiS| Chance: also,  if you can while updating the script take some screen shot teasers so we can also keep the community informed on progress.
+Otoris: sure, I'll work on something
+Otoris: I can even do a small 30 second ad on revision 11
+|IRiS| Chance: sweet :)
+|IRiS| Chance: alrite well ima go to bed now, but ill talk to you tomorrow and hopefully iill get those files ready for you by then
+|IRiS| Chance: i want to get all the information finalized for the new script in progress by the end of tuesday
+Otoris is now playing Garry's Mod. Click here to join.
+|IRiS| Chance: and that way we can shift our priorities strictly on supporting your build the script we have in mind.
+Otoris: okay
+|IRiS| Chance: because lingering too much on planning is just dull.
+Otoris: :)
+Otoris: Gnight
+|IRiS| Chance: ive been planning for months now :P
+|IRiS| Chance: planning is great but really
+|IRiS| Chance: i want to take action!
+|IRiS| Chance: i tend to get carried away with planning
+Otoris: We need to keep updating the server so people will get more and more interested/hooked
+|IRiS| Chance: i tried during the alst update
+|IRiS| Chance: posted the HUD
+|IRiS| Chance: and some other things.
+|IRiS| Chance: which btw rang in 2 more donations :)
+Otoris: Oh btw I updated the site 2 days ago.
+|IRiS| Chance: Oh yeah
+Otoris: I was wondering if you wanted the dev news updated?
+|IRiS| Chance: yea
+|IRiS| Chance: you could be in charge of that i guess
+|IRiS| Chance: in terms of devlopment of the actual script
+|IRiS| Chance: or perhaps the changelog with extra information can go in there too?
+|IRiS| Chance: or future changes etc.
+Otoris: Do you want me to take down the development schedule?
+Otoris: Since it is severly outdated
+|IRiS| Chance: yeah
+|IRiS| Chance: lol....
+|IRiS| Chance: according to that we should've been done with FRP script like a month ago
+Otoris: And maybe update the media...
+|IRiS| Chance: yeaa lol
+Otoris: Cause this all seems so outdated :O
+|IRiS| Chance: btw i just paid 150 dollars today for that design D:
+|IRiS| Chance: i havent gotten to pay him yet.
+Otoris: Wow, you got that cheap, ish
+|IRiS| Chance: so i hope you all appreicate it ^_^
+Otoris: I guess he didn't do to much
+|IRiS| Chance: well
+|IRiS| Chance: yea its cheap
+|IRiS| Chance: but its worht it
+|IRiS| Chance: i coud've hired some douche who would've charge me 500 or more
+Otoris: Did he create the grpahics?
+|IRiS| Chance: for a simple site such as that
+|IRiS| Chance: naw
+|IRiS| Chance: i created the grafix
+Otoris: :O
+Otoris: You got ripped off then
+|IRiS| Chance: meh
+|IRiS| Chance: w/e
+|IRiS| Chance: done deal
+|IRiS| Chance: he's also covered hosting too
+|IRiS| Chance: so w/e
+Otoris: :) oh I guess that makes it up
+|IRiS| Chance: plus im going to have him work on a few things for me
+|IRiS| Chance: so yea
+Otoris: but, now that I know you did the graphics, do you want to shove something else in where dev schedule is?
+Otoris: the development schedule*
+|IRiS| Chance: perhaps we could include some of the concept work in there
+Otoris: Okay,
+|IRiS| Chance: the pics that i've placed on annouicments
+|IRiS| Chance: hud and all that
+|IRiS| Chance: just the ones i posted in annoucmeents
+Otoris: I'll come up with something for the news. And maybe post a very very discrete enclave model preview??? like something that looks like the fallout box maybe except real dark to make it mysterious
+|IRiS| Chance: alright sounds good :)
+Otoris: Cool, I will try to get the site stuff updated tomorrow
+|IRiS| Chance: anyways my eyes are faiiling so im going to go sleep, but ill try to get going on my part with the dev stuff
+|IRiS| Chance: ill keep in touch with you and cookie
+Otoris: Anyways, sorry for keeping you :)
+|IRiS| Chance: its ok^_^
+Otoris: Gnight
+|IRiS| Chance: nite
+|IRiS| Chance has changed their name to |IRiS| Chance -sleep-.
+
+1.31.09
+
+Waffles
+
+
+Otoris: Hai ^_^
+|IRiS| waffles: hello
+Otoris: How's frp_Triton coming along?
+|IRiS| waffles: meh
+|IRiS| waffles: bit tipsy atm
+|IRiS| waffles: i try to do it when i can
+Otoris: I c.
+|IRiS| waffles: uni work gets in the way
+|IRiS| waffles: biochem = hard
+Otoris: lol
+Otoris: I like your snpc ideas btw
+|IRiS| waffles: ta
+|IRiS| waffles: added more
+Otoris: This would definatly boost server econemy,
+Otoris: Also we could limit the items they could possibly sell, so that player traders have an advatage
+|IRiS| waffles: ya
+|IRiS| waffles: i think my stalker idea is good
+Otoris: It would work out pretty well
+|IRiS| waffles: but one complaint that players get is theres nothing to do
+Otoris: Indeed,
+|IRiS| waffles: need a way for players to hunt without cuasing ragdoll lag
+Otoris: I hope to change a lot of that in the next update, make it more of a hooking experience
+Otoris: hunt?
+|IRiS| waffles: like kill npc's
+Otoris: Oh,
+Otoris: Maybe we could possibly add some feral ghouls or something
+|IRiS| waffles: i was thinking
+|IRiS| waffles: when they kill the npc, you can make it explode into gibs
+|IRiS| waffles: and those props can be picked up and sold
+Otoris: :) meat
+|IRiS| waffles: which reduces lag too
+|IRiS| waffles: exatcly
+|IRiS| waffles: i.e. you pick up a hunk of mutant flesh and you might get a gun or ammo
+Otoris: I am going to create a simple ragdoll remover btw, to clear up some of the server lag
+|IRiS| waffles: theres a chance of getting something
+|IRiS| waffles: ye
+|IRiS| waffles: good idea
+|IRiS| waffles: also
+|IRiS| waffles: ARTILLERY SWEP
+Otoris: lol
+|IRiS| waffles: like headcrab cannisters :D
+Otoris: Maybe, we don't want it to be to much like falloutmod
+|IRiS| waffles: i got a gmod9 artilery swep script btw
+|IRiS| waffles: shouldn't be hard to edit it...
+Otoris: It shouldn't be a problem creating something like that, and gmod9 lua differs so much from gmod10 lua that it would be better for me to go ahead and create it from scratch
+|IRiS| waffles: true
+Otoris: cause it uses a source entity, so it shouldn't be to hard
+Otoris is now playing Garry's Mod. Click here to join.
+
+02.13.09 1:26 am
+
+ Never tell your password to anyone.
+|IRiS| Chance: ^_^
+Otoris: Hai ^_^
+|IRiS| Chance: Excalliber donated 100 dollars :o
+Otoris: I saw!
+|IRiS| Chance: !
+Otoris: He is quite the generous one
+|IRiS| Chance: He really is..
+Otoris: Money bags too ^_^
+|IRiS| Chance: I know :o
+Otoris: jk At least he believes in the cause enough to donate
+|IRiS| Chance: Yea I appreicate it
+|IRiS| Chance: :P
+|IRiS| Chance: How are you doing with the progress?
+Otoris: Fine, I thought of a new improved way of creating letters, instead of doing it the crappy darkrp way
+Otoris: I updated the progress a little today
+|IRiS| Chance: Nice :)
+|IRiS| Chance: did you get my emial>
+Otoris: um let me check
+Otoris: Thanks ^_^
+Otoris: Das told me if the server crashes it clears all weapons out of the players backpack, and I need to make sure nothing is broken on the server, the weird part is, everything else stays in the pack, I even got to test it because the server went down the other day
+Otoris: :O We have thousands of player files!
+|IRiS| Chance: :o
+|IRiS| Chance: What does that mean :P
+Otoris: It means we have had way over a thousand people connect to our server
+|IRiS| Chance: Holy crap :O
+|IRiS| Chance: :O
+Otoris: different indivduals not the same person reconnecting or creating a new character
+Otoris: Look in the data/FalloutScript/PlayerData Folder
+|IRiS| Chance: yea
+Otoris: Each file represents one player and it is a total of 1651 players D:
+Otoris: Epic size I think
+|IRiS| Chance: Wow
+|IRiS| Chance: ....
+|IRiS| Chance: http://break.com/index/real-life-little-mermaid.html
+|IRiS| Chance: humans are evolving........
+|IRiS| Chance: and the heartless commnets obviously left by break people "is anyone surprised?? look at the genes she inherited, two ugly old fat semiretarded parents are bound to have a deformed child"
+|IRiS| Chance: lol.....
+Otoris: okay. lol
+|IRiS| Chance: So what are you working on in the dev part of things atm?
+Otoris: I have been thinking lately, about the scripts progress and all, and I was wondering what your opinion is on this huge release, would it be better to keep them waiting or release a smaller version, then special and etc later on
+Otoris: Well,
+Otoris: Letter, fix the inventory bug, and
+|IRiS| Chance: We shoudl release a smaller version
+Otoris: Hud Chat Box
+Otoris: Great, I was hopeing you would say that
+|IRiS| Chance: Only beacuse of this reason.
+|IRiS| Chance: Releasing a huge version is great and all but really puts the community's anticipating on the edge.
+|IRiS| Chance: And while we keep on saying we're making progress and such
+|IRiS| Chance: The community wants to be reassured that their support is being paid off with something good :)
+Otoris: Great :) I was kinda thinking the same thing
+|IRiS| Chance: And we're going to have raise the bar again now that we have over 300 members and
+|IRiS| Chance: money pouring in left and right sheesh
+|IRiS| Chance: :)
+|IRiS| Chance: It's great to have that kind of support something i would've never expected two months ago
+Otoris: And another thing, CONTRIBUTORS BENIFITS
+|IRiS| Chance: I know... we really have to figure something out
+Otoris: I know! It is mind blowing. You Cookie and Excalliber have done a great job attracting people
+|IRiS| Chance: The challnege here is to maintain that and by doing it we ahve to contiously raise the bar.
+Otoris: Right
+|IRiS| Chance: It's going to be challenging but fun :)
+Otoris: Yup ^_^ challenging indeed
+Otoris: Btw, I would like to inform you that Crammal is a great admin and doing terrific in my opinion
+|IRiS| Chance: Alright I'm about 1/3 done with SPECIAL and when you release the next update
+|IRiS| Chance: That's great :)
+|IRiS| Chance: I knew he would be a great addition to the team
+|IRiS| Chance: Right when I read his email I knew he'd be the right person.
+|IRiS| Chance: For the job.
+|IRiS| Chance: When you're finished with the next revision
+|IRiS| Chance: We'll be working on SPECIAL and Skills simulateously
+|IRiS| Chance: since they correlate with each other
+Otoris: Okay
+|IRiS| Chance: however, we're going to do it in an organized "section-by-section" approach
+|IRiS| Chance: For instance.
+|IRiS| Chance: We'll start off with strength
+|IRiS| Chance: and then do all applicable skills that are relevant to that.
+Otoris: Okay
+|IRiS| Chance: that way we dont have to wait on planning the whole logistics of the SPECIAL at once
+|IRiS| Chance: because it can be time consuming.
+Otoris: That will be a cool approach
+|IRiS| Chance: So things should be done in stages, and things will move at a conisstent pace.
+Otoris: Yup, hopefully :)
+Otoris: Would you like the hud to be finished for the next revision since we don't have everything to incorperate into the hud yet?
+|IRiS| Chance: Well
+Otoris: I can fill in the blank space on the pipboy graphic with a rads bar and center it
+|IRiS| Chance: what about the XP bar?
+Otoris: Well, I could do that right now I suppose, I can make it easy to mod for when special is complete
+|IRiS| Chance: XP has no afficliation with skills or special
+|IRiS| Chance: it just basically a bar that lists the amount of time spent in the server
+|IRiS| Chance: in which ou will level up
+|IRiS| Chance: after you reach a certain amount of time etc.
+|IRiS| Chance: but i need to uh
+|IRiS| Chance: figure out how much time in between leveling up
+Otoris: That shouldn't be to hard to come up with, max level is 20 right
+|IRiS| Chance: yeah
+|IRiS| Chance: or we could work on it right now
+Otoris: Sure
+Otoris: I'll create a list of things that will be done in the next revision, and things that will be moved back
+Otoris: I just really need to find out why it is erasing peoples hard earned weapons D:
+Otoris: I can also create an ap bar if you'd like, but none of the vgui stuff is done until we have all the stuff to fill it in with
+Otoris: Trader will probably be a revision unto itself
+|IRiS| Chance: alright hmm that is strange how it does erase
+Otoris: Have you updated the server today
+|IRiS| Chance: yea id id
+Otoris: ^_^
+Otoris: No unhappy players then
+|IRiS| Chance: :)
+|IRiS| Chance: hmm actually
+|IRiS| Chance: we shouldn't add AP yet D: since leveling up
+|IRiS| Chance: also includes increasing your skill points
+|IRiS| Chance: :O
+Otoris: True.
+Otoris: So cut ap and keep xp ?
+|IRiS| Chance: http://break.com/index/bird-strikes-fish-in-water.html
+|IRiS| Chance: lOL
+|IRiS| Chance: the fish is all "hmm what a beautiful day today do do do ... oh SHI-"
+|IRiS| Chance: :O
+Otoris: :)
+|IRiS| Chance: i meant XP correlates with leveling up
+|IRiS| Chance: not ap :P
+|IRiS| Chance: we could add AP tho..
+Otoris: So cut xp then?
+Otoris: Keep ap
+|IRiS| Chance: :)
+|IRiS| Chance: yea
+Otoris: Since ap is rather simple I believe
+|IRiS| Chance: so what actions should decrease AP levels?
+Otoris: Okay, so it is decided that we are to release the hud in this revision?
+Otoris: Jumping, running
+Otoris: That is all I can think of O_o
+Otoris: Maybe have it recharge faster if you crouch?
+|IRiS| Chance: yea
+|IRiS| Chance: hm
+|IRiS| Chance: I was thinking uh that
+Otoris: Because we don't have the graphics created yet for the center bottom piece
+|IRiS| Chance: should speaking OOC decrease AP bar or no
+|IRiS| Chance: just a throught :p
+Otoris: But I suppose I could conjure up some :| I dunno about the weapons though, and also weapon select won't be included as that is kinda complex
+|IRiS| Chance: or wait
+|IRiS| Chance: :O
+Otoris: Well
+|IRiS| Chance: Perhaps we could add in a special OOC bar somehwere
+Otoris: Sure maybe :D
+|IRiS| Chance: that :O
+|IRiS| Chance: ;O!
+Otoris: OOC Tokens
+|IRiS| Chance: yes!
+|IRiS| Chance: oooooooo
+Otoris: 10 tokens when you join
+Otoris: recharges after
+Otoris: 15 -30 minutes?
+Otoris: an hour even
+Otoris: dunno
+|IRiS| Chance: hmm
+|IRiS| Chance: less than 15 minutes
+|IRiS| Chance: probably 5 minutes?
+Otoris: That is the total time it takes to accumulate all the tokens I am saying
+Otoris: Sure
+|IRiS| Chance: admins wouldn't apply since we need OOC chat
+|IRiS| Chance: but does each line count as a token?
+Otoris: 5 minutes a token? our to recharge all tokens?
+Otoris: Yes
+Otoris: Like every time the player enters an ooc chat, one token gone
+Otoris: Maybe have 25 tokens to begin with?
+|IRiS| Chance: sure
+Otoris: And take this feature off for contributors?
+|IRiS| Chance: thats not a bad idea at all
+|IRiS| Chance: yes!
+|IRiS| Chance: good idea :)
+Otoris: That donate 5 or more dollars possibly, so someone doesn't donate a dollar and spam ooc
+|IRiS| Chance: alright not a bad idea
+|IRiS| Chance: or perhaps :O
+|IRiS| Chance: we could correlate this with Speech skills :O
+|IRiS| Chance: increase tokens
+|IRiS| Chance: as speech skills increase!
+Otoris: Possibly :)
+|IRiS| Chance: ^_^
+Otoris: But for now, in this revision do you want ooc tokens?
+|IRiS| Chance: sure
+|IRiS| Chance: not sure where we could add a bar
+|IRiS| Chance: or soemthing
+Otoris: We can!
+Otoris: lol
+Otoris: Or just an integer or w/e
+Otoris: Display this on the hud?
+|IRiS| Chance: since center will be the target thing
+|IRiS| Chance is now Offline.
+|IRiS| Chance is now Online.
+Otoris: |IRiS| Chance: since center will be the target thing
+|IRiS| Chance: yea
+|IRiS| Chance: u figured out how to work target?
+Otoris: I thought steam cut us.
+Otoris: Yes, it is finished ^_^
+|IRiS| Chance: :)
+Otoris: I don't think I have shown you a picture of it though.
+Otoris: It only shows up if there is a target
+|IRiS| Chance: ah alright
+|IRiS| Chance: so the person you're looking at get's dispalyeD/
+Otoris: Correct
+Otoris: On the top center bar of the hud
+|IRiS| Chance: alright
+Otoris: in digital-7 white TARGET: PLAYER HERE
+|IRiS| Chance: btw does garrysmod.org work?
+Otoris: Must have server problems D:
+Otoris: Server problems
+Otoris: Or updating the site
+Otoris: who knows...
+|IRiS| Chance: oh crap
+|IRiS| Chance: :O
+|IRiS| Chance: http://www.facepunch.com/showthread.php?t=691108
+Otoris: Nice
+Otoris: I wonder if there is a way to attach that model to the arm of a player...
+Otoris ponders the concept
+|IRiS| Chance: you'll have to do it through modeling
+Otoris: I c... We would also have to add animations to the current player models also
+|IRiS| Chance: yea
+Otoris: ...Megaman 9...
+|IRiS| Chance: ill see what i can do
+Otoris: Wolly contacted you or anything?
+|IRiS| Chance: naw
+Otoris sighs
+|IRiS| Chance: looks like we found our niche to someone for porting models
+|IRiS| Chance: just wait for good ole llama to release whatever
+|IRiS| Chance: and just use that lol
+|IRiS| Chance: saves us a lot of time
+Otoris: :D
+|IRiS| Chance: :P
+Otoris: Indeed
+Otoris: Only thing is, I don't think he will rig ragdolls to work with players :O
+Otoris: But everything else, we got :)
+|IRiS| Chance: ill have to speak to barnz about that
+|IRiS| Chance: but yea one step at a time :)
+Otoris: Want me to make !voice contributor only?
+Otoris: It wouldn't take to long
+|IRiS| Chance: what is that
+Otoris: I would need you to create something in the same file you added everyone as admin on the server
+Otoris: !voice run
+Otoris: you know, you suggested making that chat command contributors only
+|IRiS| Chance: wait  im a bit confused
+Otoris: rp_voice ?
+|IRiS| Chance: oh!
+|IRiS| Chance: i want a vgui pop up thing
+|IRiS| Chance: that would make it easier for people to choose
+|IRiS| Chance: whatever voice but that would correlate with speech skills as well
+|IRiS| Chance: but i guess for now we could work on that
+Otoris: k. So not contributor only
+|IRiS| Chance: or we could make it contributor only?
+|IRiS| Chance: what do you think ?
+Otoris: Your call,
+|IRiS| Chance: i want your opinion tho :P
+Otoris: Doesn't matter, I am just thinking of the generous donators
+|IRiS| Chance: Fine
+Otoris: I think it would be cool, having it correlate with speech skils
+Otoris: but we need something for them!
+|IRiS| Chance: i know
+|IRiS| Chance: im going to come up with something ...
+Otoris: Okay, so I will setup rp_voice vgui in a later update
+Otoris: maybe something like the admin sound menu
+|IRiS| Chance: yea
+|IRiS| Chance: u mentioned osmething about updating what the admin menu looks like
+|IRiS| Chance: do you have a pic of that
+Otoris: I have created a type of frame that everything fits in that will be used on the tabs, it makes finding players alot easier, and everything cleaner in general
+Otoris: nothing new command wise, but we really don't need anything like that
+Otoris: I'll upload a picture rq
+|IRiS| Chance: 62 / 1988
+|IRiS| Chance: thats our game rank
+Otoris: huh?
+|IRiS| Chance: http://www.game-monitor.com/garrysmod2_GameServer/74.63.199.36:27015/Fallout_Roleplay_www.falloutrp.com_IRiS_Studios.html
+Otoris: Consecutive Failed?
+Otoris: What is that for?
+|IRiS| Chance: not sure
+Otoris: Edit my list http://s1.zetaboards.com/falloutrp/topic/1222096/1/ if I missed anything
+Otoris: Or need to subtract anything
+Otoris: or etc
+|IRiS| Chance is now playing Garry's Mod. Click here to join.
+Otoris: http://img4.imageshack.us/img4/3089/gmatomic0155qr2.jpg
+Otoris: and
+Otoris: http://img10.imageshack.us/img10/1070/gmatomic0153hj5.jpg
+Otoris: and
+Otoris: Gnight,

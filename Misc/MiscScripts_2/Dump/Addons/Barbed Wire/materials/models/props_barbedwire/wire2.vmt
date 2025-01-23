@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_barbedwire/wire2"
+	"$alphatest" 1
+}

@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"			"SilkIcons"
+	"version"		"1.0"
+	"up_date"		"30th August 2010"
+	"author_name"	"_Undefined"
+	"author_url"	"http://equinox-studios.com"
+	"author_email"	"admin@equinox-studios.com"
+	"info"			"Sexy chatbox is sexy."
+}

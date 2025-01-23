@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_barbedwire/wood5"
+	"$model" 1
+	"%keywords" "wood barbed"
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+   "$basetexture" "VGUI\entities\ent_fridge"
+   "$decal" 1
+   "$decalscale" 1
+}

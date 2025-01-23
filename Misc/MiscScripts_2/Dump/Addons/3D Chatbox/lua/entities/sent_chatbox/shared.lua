@@ -1,0 +1,9 @@
+ENT.Type			= "anim"
+ENT.Base			= "base_anim"
+ENT.PrintName		= "3d ChatBox"
+ENT.Author			= "_Undefined"
+ENT.Contact			= "admin@equinox.cc"
+ENT.Purpose			= "View Chat logs in 3D!"
+ENT.Spawnable		= true
+ENT.Instructions	= ""
+ENT.AdminSpawnable	= true

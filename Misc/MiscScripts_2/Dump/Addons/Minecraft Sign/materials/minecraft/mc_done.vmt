@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "minecraft/mc_done"
+	"$translucent" 1
+}

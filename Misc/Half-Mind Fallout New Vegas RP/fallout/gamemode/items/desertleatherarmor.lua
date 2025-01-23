@@ -1,0 +1,12 @@
+ITEM.Name = "Desert Leather Armor";
+ITEM.Desc = "Made from some sort of animal leather, this set of armor offers protection from traditional projectiles as well as energy weapons. Certainly not great, but better than nothing.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group015.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 3;
+ITEM.BasePrice = 999;
+ITEM.Category = CATEGORY_ARMOR;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group015";

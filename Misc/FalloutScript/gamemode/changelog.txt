@@ -1,0 +1,29 @@
+Changelog 11
+
+[Added] HUD
+[Added] Letters
+[Added] Ragdoll Cleanup
+[Added] AP (Action Points)
+[Added] RADS
+[Added] Advanced Items Details
+[Added] KO Script
+[Added] RP Quiz
+[Added] New wasteland Male Models
+[Added] RP_Voice Delay Timer - Prevents Spam
+[Added] Phys & TT Advanced Blocker
+[Fixed] Weapons Disappearing from your inventory
+[Fixed] Doors killing people in the Bunker
+[Fixed] Some weapons being undropable
+[Changed] Observer being Super Admin only to Admin
+[Changed] Permaban from being Super Admin only to Admin
+
+Notes: If you have trouble with fonts, try restarting your GMod after you've joined. If this problem persists, contact us!
+
+
+Patches in the near future:
+[Added] Karma
+[Added] New Fists!
+[Added] Rifle/Sniper Rifle
+[Added] SubMachine Gun
+[Added] New Reference guides
+[Added] Tip Ticker

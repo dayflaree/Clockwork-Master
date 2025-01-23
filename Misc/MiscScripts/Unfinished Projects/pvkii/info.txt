@@ -1,0 +1,17 @@
+"Gamemode"
+{
+	"name"		"Pirates, Vikings and Knights"
+	"version"		"1.0"
+
+	"author_name"	"Overv"
+	"author_email"	"overv161@gmail.com"
+	"author_url"	"http://www.overvprojects.nl/"
+	
+	"info"		"Remake of the Pirates, Vikings and Knights mod."
+	"hide"		"0"
+	
+	"mappattern"
+	{
+		"1"	"^bt_"
+	}
+}

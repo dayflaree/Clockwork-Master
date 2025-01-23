@@ -1,0 +1,7 @@
+"AddonInfo"
+{
+	"name"			"3d Stuff"
+	"version"		""
+	"author_name"		""
+	"info"			""
+}

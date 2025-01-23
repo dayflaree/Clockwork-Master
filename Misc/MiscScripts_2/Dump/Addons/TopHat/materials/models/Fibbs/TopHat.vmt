@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/Fibbs/TopHat"
+	"$bumpmap" "models/Fibbs/TopHat_n"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .1 .1 .1 ]"
+	"$envmapcontrast" 0.1
+	"$envmapsaturation" 0.9
+	"$surfaceprop" "carpet"
+	"$model" 1
+}

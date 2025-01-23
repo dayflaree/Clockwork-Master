@@ -1,0 +1,14 @@
+ITEM.Name = "Dark Blue Reinforced Combat Armor";
+ITEM.Desc = "A reinforced set of combat armor used by infantry in the Great War, quite rare. This set is a dark blue.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group053.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 3;
+ITEM.BasePrice = 999;
+ITEM.Clothing = true;
+ITEM.Category = CATEGORY_ARMOR;
+ITEM.Skin = 3;
+ITEM.DropSkin = 3;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group053";

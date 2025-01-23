@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"		"No Build Zone"
+	"version"	"1.0"
+	"up_date"	"13th March 2011"
+	"author_name"	"_Undefined"
+	"author_url"	"http://equinox-studios.com"
+	"author_email"	"admin@equinox-studios.com"
+	"info"		"Stops player spawning props on spawn on flatgrass."
+}

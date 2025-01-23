@@ -1,0 +1,12 @@
+ITEM.Name = "NCR Ranger Patrol Armor";
+ITEM.Desc = "A set of NCR Ranger Armor. Offering very good bullet and energy weapon protection, this set is meant for light infantry.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group054.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 3;
+ITEM.Clothing = true;
+ITEM.Category = CATEGORY_ARMOR;
+ITEM.BasePrice = 999;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group054";

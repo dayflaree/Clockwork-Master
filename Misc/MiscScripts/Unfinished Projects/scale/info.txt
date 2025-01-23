@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"		"Scale"
+	"version"	"1.0"
+	"up_date"	"17th Juny 2010"
+	"author_name"	"Overv"
+	"author_email"	"overv161@gmail.com"
+	"author_url"	"http://www.overvprojects.nl/"
+	
+	"info"		"Scale props."
+}

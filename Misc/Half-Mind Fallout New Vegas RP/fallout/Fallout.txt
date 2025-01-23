@@ -1,0 +1,7 @@
+"Fallout"
+{
+	"base"			"sandbox"
+	"title"			"Fallout"
+	"menusystem" 	"1"
+	"maps"			"^rp_"
+}

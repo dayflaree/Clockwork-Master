@@ -1,0 +1,1 @@
+math.Clamp(ent:Health() / ent:GetMaxHealth() * 255, 0, 255)

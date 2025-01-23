@@ -1,0 +1,12 @@
+ITEM.Name = "Prospector Jacket";
+ITEM.Desc = "A large leather jacket with many different pockets all over it, and tools strapped onto all places that have free real estate. Commonly worn by prospectors of the Wastes.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group104.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.BasePrice = 999;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group104";

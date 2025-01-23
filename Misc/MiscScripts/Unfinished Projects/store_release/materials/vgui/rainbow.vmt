@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui//rainbow"
+	"$translucent" 1
+}

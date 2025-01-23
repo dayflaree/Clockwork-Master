@@ -1,0 +1,14 @@
+ITEM.Name = "Waster Rags";
+ITEM.Desc = "More or less a crudely made olive-tan colored shirt with a makeshift belt made from cloth. Commonly worn by the Wasteland's less fortunate.";
+ITEM.Model = "models/props_c17/SuitCase_Passenger_Physics.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.BasePrice = 999;
+ITEM.Skin = 0;
+ITEM.DropSkin = 0;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group022";

@@ -1,0 +1,13 @@
+"AddonInfo"
+{
+	"name"		"Fish sent pack"
+	"version"		"3.3"
+	"up_date"	""
+	"author_name"	"anonymous"
+	"author_email"	""
+	"author_url"	""
+	
+	"info"		"Addon with fish sent and models."
+	"override"	"0"
+
+}

@@ -1,0 +1,9 @@
+ENT.Type       		= "anim"
+ENT.Base       		= "base_anim"
+ENT.PrintName      	= "Lobby Notepad"
+ENT.Author    		= "_Undefined"
+ENT.Contact  		= "admin@ubs-clan.co.uk"
+ENT.Purpose  		= "For use in Lobby"
+ENT.Instructions    = "Notepad"
+ENT.Spawnable      	= false
+ENT.AdminSpawnable  = false

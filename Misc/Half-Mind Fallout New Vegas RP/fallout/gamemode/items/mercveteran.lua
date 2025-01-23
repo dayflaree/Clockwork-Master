@@ -1,0 +1,12 @@
+ITEM.Name = "Mercenary Veteran Outfit";
+ITEM.Desc = "A blue leather jacket with re-bar shoulder arches and bracelets, along with a few war medals, a rebreather/gas mask of some kind hanging around the neck, and some brown trousers make up this suit of clothing.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group019.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.BasePrice = 999;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group019";

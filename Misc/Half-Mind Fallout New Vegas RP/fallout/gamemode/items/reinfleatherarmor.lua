@@ -1,0 +1,12 @@
+ITEM.Name = "Reinforced Leather Armor";
+ITEM.Desc = "Made from some sort of animal leather, this set of leather armor is definitely an upgrade over the common sets you find across the Wastes. Offering moderate protection against projectiles and energy weapons, it is a good no-compromises set of armor.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group017.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 3;
+ITEM.Category = CATEGORY_ARMOR;
+ITEM.BasePrice = 999;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group017";

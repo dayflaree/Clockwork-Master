@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"Door Unlocker-locker"
+	"version"			"1.0"
+	"up_date"			"Today"
+	"author_name"			"Sotos"
+	"author_email"			"sotosyeah@hotmail.com"
+	"author_url"			""
+	"info"				"My Gun"
+	"override"			"0"
+}

@@ -1,0 +1,12 @@
+ITEM.Name = "Cowboy Gear";
+ITEM.Desc = "A set of old-western style clothing with a bandolier and belt.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group003.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.BasePrice = 999;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group003";

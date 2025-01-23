@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+"name"			"Fish's Fridge"
+"version"		"v1.0"
+"author_name"	"iFish"
+"author_email"	"mightyhaku@gmail.com"
+"info"			"A fridge that lets you select what to eat"
+}

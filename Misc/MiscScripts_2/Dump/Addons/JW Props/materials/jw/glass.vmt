@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "jw/glass"
+	"$translucent" 1
+	"$nocull" 1	
+	"$surfaceprop" "metal"
+	//"$bumpmap" "jw/glass"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 1.0 1.0 1.0 ]"
+	//"$envmapmask" "jw/glass"
+	"$selfillum" 0
+	"$model" 1
+	"$halflambert" 1
+}
+
+

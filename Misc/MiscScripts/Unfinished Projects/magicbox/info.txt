@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"		"Magic Box"
+	"version"		"1.0"
+	"up_date"		"29th December 2010"
+	"author_name"	"Overv"
+	"author_email"	"overv161@gmail.com"
+	"author_url"	"http://www.overvprojects.nl/"
+	
+	"info"		"Remake of Mahalis' magic box, because it takes so damn long for him to finish it."
+}

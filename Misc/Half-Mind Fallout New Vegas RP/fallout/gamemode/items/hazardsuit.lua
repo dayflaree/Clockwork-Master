@@ -1,0 +1,14 @@
+ITEM.Name = "Chemical Protection Suit";
+ITEM.Desc = "A bright yellow full body suit made of some sort of air-tight material. It has an integrated rebreather with a bubble-style helmet.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group009.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.BasePrice = 999;
+ITEM.Category = CATEGORY_ARMOR;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.UseRealModelPath = true;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group009/male.mdl";
+ITEM.HandsPath = "models/thespireroleplay/humans/group009/arms/male_arm.mdl";

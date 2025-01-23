@@ -1,0 +1,12 @@
+ITEM.Name = "White Crew Neck";
+ITEM.Desc = "A plain white crew neck or tank top with jeans and boots. Old, but well kept.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group020.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.BasePrice = 999;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group020";

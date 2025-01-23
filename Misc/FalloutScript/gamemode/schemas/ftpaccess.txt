@@ -1,0 +1,340 @@
+
+|IRiS| Chance: I can give you the ftp one second
+|IRiS| Chance: Host Name: www.falloutrp.com
+UserName u49186168-HarryP
+Password: Password@1
+
+|IRiS| Chance: www.1and1.com  > click customer login
+ 
+username: 17614300
+pw: taylor@1
+|IRiS| Chance: keep confidential!
+Otoris: Thanks, ^_^
+
+
+
+--GMOD Server FTP	
+|IRiS| Chance: 74.63.199.34:21
+|IRiS| Chance: Usename Iris
+|IRiS| Chance: Password
+|IRiS| Chance: Iris511
+
+--Server CP
+
+
+8:36 PM - |IRiS| Chance CRUNCH TIME!!!: Otoris
+8:36 PM - |IRiS| Chance CRUNCH TIME!!!: Otorislikesthelua
+
+--Web Site CP
+
+|IRiS| Chance: www.1and1.com  > click customer login
+ 
+username: 17614300
+pw: taylor@1
+|IRiS| Chance: keep confidential!
+Otoris: Thanks, ^_^
+|IRiS| Chance is now Offline.
+|IRiS| Chance is now Online.
+|IRiS| Chance is now Offline.
+|IRiS| Chance is now Online.
+|IRiS| Chance: about that pass Otoris
+|IRiS| Chance: Store keep it safe cause it includes my friends information on there as well
+Otoris: Right.
+Otoris: Will do
+|IRiS| Chance is now Away.
+|IRiS| Chance is now Online.
+Otoris: try
+Otoris: falloutrp.com/forums
+|IRiS| Chance: :O
+|IRiS| Chance: yes sir!
+Otoris: Notify if it works
+|IRiS| Chance: Warning: fetch_config(/homepages/5/d244282082/htdocs/ModelNumber3/FalloutRP/forums/includes/config.php) [function.fetch-config]: failed to open stream: No such file or directory in /homepages/5/d244282082/htdocs/ModelNumber3/FalloutRP/forums/includes/class_core.php on line 2544
+
+Warning: fetch_config() [function.include]: Failed opening '/homepages/5/d244282082/htdocs/ModelNumber3/FalloutRP/forums/includes/config.php' for inclusion (include_path='.:/usr/lib/php') in /homepages/5/d244282082/htdocs/ModelNumber3/FalloutRP/forums/includes/class_core.php on line 2544
+
+
+Configuration: includes/config.php does not exist. Please fill out the data in config.php.new and rename it to config.php
+|IRiS| Chance: :O
+|IRiS| Chance cries
+Otoris stares and cries
+Otoris looks at the error and runs to fix
+Otoris: I am such an idiot
+Otoris facepalms
+|IRiS| Chance: :C
+Otoris hits refresh and gets into vbulletin somewhat
+Otoris: Okay it should have sent you your first email
+|IRiS| Chance: um
+Otoris: what does it say?
+Otoris: Error wise
+|IRiS| Chance: Database error in vBulletin :
+
+Invalid SQL:
+
+                       SELECT *
+                       FROM forum_datastore
+                       WHERE title IN ('','options','bitfields','attachmentcache','forumcache','usergroupcache','stylecache','languagecache','products','pluginlist','cron','profilefield','loadcache','noticecache','userstats','birthdaycache','maxloggedin','iconcache','eventcache','mailqueue');
+
+MySQL Error   : Table 'db276953863.forum_datastore' doesn't exist
+Error Number  : 1146
+Request Date  : Sunday, February 15th 2009 @ 08:05:03 PM
+Error Date    : Sunday, February 15th 2009 @ 08:05:03 PM
+Script        : http://falloutrp.com/forums/
+Referrer      :
+IP Address    : 99.144.229.79
+Username      :
+Classname     : vb_database
+MySQL Version :
+|IRiS| Chance: Database error in vBulletin :
+
+Invalid SQL:
+
+                       SELECT *
+                       FROM forum_datastore
+                       WHERE title IN ('','options','bitfields','attachmentcache','forumcache','usergroupcache','stylecache','languagecache','products','pluginlist','cron','profilefield','loadcache','noticecache','userstats','birthdaycache','maxloggedin','iconcache','eventcache','mailqueue');
+
+MySQL Error   : Table 'db276953863.forum_datastore' doesn't exist
+Error Number  : 1146
+Request Date  : Sunday, February 15th 2009 @ 08:05:06 PM
+Error Date    : Sunday, February 15th 2009 @ 08:05:07 PM
+Script        : http://falloutrp.com/forums/
+Referrer      :
+IP Address    : 99.144.229.79
+Username      :
+Classname     : vb_database
+MySQL Version :
+|IRiS| Chance: D:
+Otoris: I c...
+Otoris: Trail and Error :)
+|IRiS| Chance: ^_^
+|IRiS| Chance: brb going to fry my cat
+Otoris: huh
+|IRiS| Chance: i mean
+Otoris: DON'T FRY FLUFFY
+|IRiS| Chance: ...bake a cake
+|IRiS| Chance: :D
+Otoris: Chance, when you get back goto
+Otoris: http://falloutrp.com/forums/install/install.php
+Otoris: Tell me what you see
+Otoris: if this works
+Otoris: the manual says
+Otoris: Certain browser plug-ins, most notably the popular Google Toolbar can have an adverse effect up the vBulletin installation and upgrade scripts. We recommend that all browser plugins be disabled while running install and upgrade scripts for vBulletin.
+Otoris: just in case
+|IRiS| Chance is now Away.
+Otoris: http://www.vbulletin.com/docs/html/runinstaller
+Otoris: btw the reason falloutrp.com/forums gives an error is because we didn't run the install file yet D:
+Otoris holds up a sign with words reading I r DumB
+Otoris puts on dunces cap
+Otoris: dunce
+|IRiS| Chance is now Online.
+|IRiS| Chance: back
+Otoris: So
+Otoris: Me point  up at the link
+Otoris points to the link above
+|IRiS| Chance: ah ok
+|IRiS| Chance: one sec
+Otoris: results :D?
+|IRiS| Chance: one sec :p
+|IRiS| Chance: 13 steps!
+Otoris: HUZZAH
+|IRiS| Chance: :D
+Otoris will quit saying that now
+|IRiS| Chance tap dances
+Otoris: http://www.vbulletin.com/docs/html/runinstaller
+Otoris: Use this as a guide
+|IRiS| Chance: YOU MUST DELETE THE FOLLOWING FILES BEFORE CONTINUING:
+install/install.php
+|IRiS| Chance: :O
+Otoris: I'll delete as I have ftp up right now
+|IRiS| Chance hugs otoris for that
+Otoris: Done
+|IRiS| Chance: k :D
+Otoris begins updloading cat theme
+|IRiS| Chance: !
+Otoris: Ya I know I didn't do it yet
+|IRiS| Chance: yay
+|IRiS| Chance: i guess everyone else could register
+|IRiS| Chance: you two right now
+Otoris: Cookie will
+Otoris: then after you finish
+Otoris: config
+|IRiS| Chance: :o
+Otoris: I will register with my basic user settings
+Otoris: and you need to grant Cookie full admin like he is right now
+|IRiS| Chance: alrite
+|IRiS| Chance: otoris
+Otoris: Yup
+Otoris observes the odd Group Chat log
+|IRiS| Chance: wtf
+|IRiS| Chance: the theme didnt install correclty -_-
+Otoris: Hmm
+Otoris: What version of vbulletin is this?
+|IRiS| Chance: uh
+Otoris: 3.8.1
+|IRiS| Chance: 3.8.1
+|IRiS| Chance: same version as the theme
+Otoris: hmm
+Otoris: Let me go look, but it does show the theme as being there correct?
+|IRiS| Chance: yes
+Otoris: Does it send out any errors?
+|IRiS| Chance: naw?
+|IRiS| Chance: just a strange
+|IRiS| Chance: http://www.falloutrp.com/forums/index.php?styleid=2
+|IRiS| Chance: http://exaltic.com/forum/index.php?styleid=44
+|IRiS| Chance: supposed to look like this D:
+Otoris: Oh that is cool
+Otoris: Well,
+Otoris: I think it can't find the images
+Otoris: so I'll go look
+|IRiS| Chance: yea..
+|IRiS| Chance: um...
+Otoris stated the obvious again just to notify himself
+|IRiS| Chance: |Das|: Chaaaaaaaaaaaaaance
+|IRiS| Chance: oh he's so close
+|IRiS| Chance: from being ignored
+|IRiS| Chance: lol
+Otoris asks "Does lovecats work?"
+Otoris: I say ignore
+Otoris: He hasn't contact meh yet :D
+|IRiS| Chance: oh you better thank god :)
+Otoris: I do
+Otoris: :)
+|IRiS| Chance: LOL
+Otoris: 39.99 Bucks?
+Otoris: For that theme?
+Otoris: :O
+|IRiS| Chance: :o
+Otoris: Howd you get it for free?
+Otoris: how did you
+Otoris: *
+|IRiS| Chance: i bought it with my money
+|IRiS| Chance: :P
+Otoris: XD Nice
+|IRiS| Chance: we deserve something nice :)
+Otoris: I guess so ^_^
+|IRiS| Chance: whats good with this is
+|IRiS| Chance: it adds the .psd files
+|IRiS| Chance: i have the license for it too
+|IRiS| Chance: so i can edit it as i wish :D
+Otoris: Nice
+|IRiS| Chance: wait
+Otoris: Did it come with a read meh
+|IRiS| Chance: there's an upload folder :o
+|IRiS| Chance: file:///C:/Documents%20and%20Settings/Iris/Desktop/Fallout%20Theme/readme.html
+|IRiS| Chance: oops
+|IRiS| Chance: lawl
+|IRiS| Chance: thats to my computer
+Otoris: ...
+Otoris: um
+Otoris: I think
+|IRiS| Chance: sent!
+Otoris: You might have installed it wrong possibly
+Otoris: eh,
+Otoris: mebbe not
+Otoris: fralalla
+Otoris: to u too
+|IRiS| Chance: lol
+|IRiS| Chance: i just blocked das
+|IRiS| Chance: lol
+|IRiS| Chance: that was the end of that
+Otoris: Congrats
+|IRiS| Chance dusts shoulders
+Otoris: !
+Otoris: http://www.falloutrp.com/forums/index.php?styleid=2
+Otoris: Tada
+|IRiS| Chance: how!
+Otoris: Instructions
+|IRiS| Chance: what!
+Otoris: Said to upload the contents of the upload folder
+Otoris: upload
+|IRiS| Chance: oh!
+Otoris: to the forums root
+Otoris: which is falloutrp.com/forums
+|IRiS| Chance: ah
+Otoris: That is epic looking
+|IRiS| Chance is pleased
+|IRiS| Chance: im going add so much things :)
+Otoris anticipates Chances next move
+|IRiS| Chance throws Otoris ice skates
+Otoris: Where did the cookie goto?
+Otoris: What?
+Otoris: lulwut?
+|IRiS| Chance: lol
+|IRiS| Chance: its for tap dancing :D
+Otoris tries to tap dance in his new shiny shiny shoes
+Otoris stumbles eventually embedding the blade of the shoe in his face
+Otoris doesn't know how his leg managed to bend like that
+Otoris: thar
+|IRiS| Chance: :O
+Otoris: Happy
+Otoris: I got a blade in my face and a dislocated leg because of you
+Otoris: lol
+|IRiS| Chance: http://exaltic.com/forum/index.php?styleid=43
+|IRiS| Chance: i wa sgoing to go for this
+|IRiS| Chance: but i liked the other one better
+Otoris goes and tries to set his avatar again
+Otoris: this one is much better :D
+Otoris: The one you bought
+Otoris: I mean
+|IRiS| Chance: ;o
+|IRiS| Chance: oh lol
+|IRiS| Chance: my heart stopped
+Otoris: Sorry, terrible wording
+|IRiS| Chance: now that we have
+|IRiS| Chance: a theme im going to go ahead and start filling in categories
+|IRiS| Chance: and then
+|IRiS| Chance: im going to create a custome banner
+Otoris says "HUZ" but stops catching himself and replaces it with "HURRAY
+Otoris: "
+|IRiS| Chance: that fits this theme huz-
+|IRiS| Chance: oh man this is so epic!
+Otoris: Indeed
+Otoris: :D
+Otoris: I like it moar than the other forum :)
+|IRiS| Chance: ^_^
+Otoris: All thanks to Excalibers deep pockets and enormous wallet
+Otoris: and the generous hand
+|IRiS| Chance: yea i know... wow.
+Otoris: :O the avatar size limit is still the same
+|IRiS| Chance: what should i change it too
+Otoris: vBulletin Message
+Remote file is too large
+Otoris: I dunno
+Otoris: Avatar size limits or something
+|IRiS| Chance: try again
+Otoris: Well
+Otoris: Still says the same size limit
+Otoris: I am looking at how large the size needs to be
+Otoris: The max allowed file size is 19.5 my avatar is 36 D:
+|IRiS| Chance: alrite
+Otoris: so mebbe 40 kb as the max size?
+|IRiS| Chance: try again
+|IRiS| Chance: :)
+Otoris: Nope, let me try direct upload
+Otoris: Note: The maximum size of your custom image is 50 by 50 pixels or 19.5 KB (whichever is smaller).
+|IRiS| Chance: try again!
+Otoris: Well check my Second post on the cookie So................. topic
+Otoris: No animations and small ish D: but eh, I'll grab me a new avatar
+|IRiS| Chance: no animations?
+Otoris: It is an animated gif
+Otoris: http://img228.imageshack.us/img228/9262/cloudnessessfa1.gif
+|IRiS| Chance: ill figure it out
+|IRiS| Chance: lol
+Otoris: :D thanks
+|IRiS| Chance: i have a huge headache atm
+|IRiS| Chance: :)
+Otoris finds his spare ibprofein bottle and ties it to a bird and points in chances general direction
+Otoris: (pain killer, generic
+Otoris: )
+|IRiS| Chance consumes the bottle
+Otoris: Allow Image BB Code No
+Otoris: Sig permissions
+Otoris: Cookies works though :P
+|IRiS| Chance: hm..
+Otoris: Anyways, forget meh
+Otoris: Work on the categories
+Otoris: !
+|IRiS| Chance: ill have to eh
+Otoris says "Chop Chop" and opens notepad ++ and starts working on the gamemode where he left off
+|IRiS| Chance: :)
+|IRiS| Chance is now Away.
+|IRiS| Chance is now Online.

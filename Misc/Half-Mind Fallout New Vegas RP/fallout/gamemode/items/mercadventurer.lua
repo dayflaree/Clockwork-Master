@@ -1,0 +1,12 @@
+ITEM.Name = "Mercenary Adventurer Outfit";
+ITEM.Desc = "A large leather jacket with torn-off sleeves, a red sweater underneath, a brown bandolier, along with several watches, a pair of brown pants, and a necklace with three teeth on it.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group061.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.BasePrice = 999;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group061";

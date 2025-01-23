@@ -1,0 +1,12 @@
+"Gamemode"
+{
+	"name"		"FalloutScript"
+	"version"	"1.0"
+
+	"author_name"	"Otoris"
+	"author_email"	""
+	"author_url"	""
+	
+	"info"		"FalloutScript - Where there's a Fallout and you have to RP or something."
+	"hide"		"0"
+}

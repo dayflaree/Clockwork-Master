@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"SilkBar"
+	"version"			"1.0"
+	"up_date"			"29th April 2009"
+	"author_name"			"_Undefined"
+	"author_email"			""
+	"author_url"			"http://ubs-clan.co.uk"
+	"info"				"Admin Tools, inspired by Mark James' Silk Icons"
+	"override"			"0"
+}

@@ -1,0 +1,14 @@
+ITEM.Name = "Vault 3 Jumpsuit";
+ITEM.Desc = "A classic Vault-Boy blue and yellow jumpsuit worn by Vault Dwellers across the wastes. This one has the number '3' embroidered on the collar and back.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group010.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.BasePrice = 999;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.Clothing = true;
+ITEM.Skin = 8;
+ITEM.DropSkin = 8;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group010";

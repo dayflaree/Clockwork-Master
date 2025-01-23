@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "jw/Plate2"
+	"$surfaceprop" "metal"
+	"$model" 1
+}

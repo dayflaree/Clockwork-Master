@@ -1,0 +1,14 @@
+ITEM.Name = "Casual Rancher's Outfit";
+ITEM.Desc = "A stylish button up cotton shirt with rugged jeans. A large belt with quite the buckle on it as well.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group058.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 2;
+ITEM.Category = CATEGORY_CLOTHING;
+ITEM.BasePrice = 999;
+ITEM.Skin = 5;
+ITEM.DropSkin = 2;
+ITEM.Clothing = true;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group058";

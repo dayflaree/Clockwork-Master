@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"		"Nero"
+	"version"	"1.0"
+	"up_date"	"17th March 2011"
+	"author_name"	"_Undefined"
+	"author_url"	"http://equinox-studios.com"
+	"author_email"	"admin@equinox-studios.com"
+	"info"		"Admin mod which uses context sensitive menu's."
+}

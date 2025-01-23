@@ -1,0 +1,17 @@
+"AddonInfo"
+{
+	"name"		"Joystick Module"
+	"version"	"22"
+	"up_date"	"1st January 2009"
+	"author_name"	"Night-Eagle"
+	"author_email"	"sedhdi@gmail.com"
+	"author_url"	""
+	
+	"info"		"Binary v1.1"
+	
+	"override"	"0"
+	
+	"GCFRequires"
+	{
+	}
+}

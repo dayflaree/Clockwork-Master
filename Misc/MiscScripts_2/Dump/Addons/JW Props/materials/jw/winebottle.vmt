@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "jw/winebottle"
+	"$surfaceprop" "glass"
+	"$model" 1
+}

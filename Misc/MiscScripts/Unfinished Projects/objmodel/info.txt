@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+	"name"		"OBJ Model"
+	"version"		"1.0"
+	"author_name"	"Overv"
+	"author_url"	"http://www.overvprojects.nl"
+	"info"		"An entity made up of a model loaded from an .obj file."
+}

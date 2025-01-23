@@ -1,0 +1,12 @@
+ITEM.Name = "Legion Praetorian Armor";
+ITEM.Desc = "A set of Legion Praetorian Armor. Basic protection against melee weapons and projectiles.";
+ITEM.Model = "models/thespireroleplay/items/clothes/group057.mdl";
+ITEM.EquipSound = "fallout/items/clothing/ui_items_clothing_up_01.wav"
+ITEM.UnequipSound = "fallout/items/clothing/ui_items_clothing_down_01.wav"
+ITEM.W = 2;
+ITEM.H = 3;
+ITEM.Clothing = true;
+ITEM.Category = CATEGORY_ARMOR;
+ITEM.BasePrice = 999;
+ITEM.Equipped = false;
+ITEM.PlayerModel = "models/thespireroleplay/humans/group108";
