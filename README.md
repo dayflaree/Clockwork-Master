@@ -1,5 +1,5 @@
 # Clockwork Master
-This is the master repository for Clockwork frameworks, schemas, plugins etc. Nearly everything 'Clockwork' can be found here.
+This is the master repository for Clockwork frameworks, schemas, plugins etc. Nearly everything 'Clockwork' can be found here. Additionally there are some miscellaneous gamemodes and schemas such as Nutscript.
 
 **Information**
 
@@ -12,8 +12,11 @@ For assistance, refer to the following resources:
 **CloudSixteen Releases**
 
 - Clockwork Framework - https://github.com/CloudSixteen/Clockwork
-- Clockwork Half-Life 2 Roleplay - https://github.com/CloudSixteen/HL2RP
 - Clockwork Workshop Content - https://steamcommunity.com/sharedfiles/filedetails/?id=108727894
+- Clockwork Half-Life 2 Roleplay - https://github.com/CloudSixteen/HL2RP
+- CloudSixteen Atomic Roleplay - https://github.com/CloudSixteen/Atomic
+- CloudSixteen Life Roleplay - https://github.com/CloudSixteen/CiderTwo
+- CloudSixteen Survival RPG - https://github.com/CloudSixteen/PhaseFour
 
 You can join the unofficial Clockwork Framework community Discord server:
 https://discord.gg/VPycGycDEw
