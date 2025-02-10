@@ -1,0 +1,2 @@
+
+PLUGIN:SetGlobalAlias("cwRealCS")
