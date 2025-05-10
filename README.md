@@ -17,6 +17,3 @@ For assistance, refer to the following resources:
 - CloudSixteen Atomic Roleplay - https://github.com/CloudSixteen/Atomic
 - CloudSixteen Life Roleplay - https://github.com/CloudSixteen/CiderTwo
 - CloudSixteen Survival RPG - https://github.com/CloudSixteen/PhaseFour
-
-You can join the unofficial Clockwork Framework community Discord server:
-https://discord.gg/VPycGycDEw
