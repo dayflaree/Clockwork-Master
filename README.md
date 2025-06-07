@@ -7,7 +7,7 @@ The Clockwork Framework is not beginner-friendly and requires a solid understand
 
 For assistance, refer to the following resources:
 - Garry's Mod Documentation - https://wiki.facepunch.com/gmod
-- Clockwork Documentation - [http://cwdoc.jonathandroogh.com/index.php](https://web.archive.org/web/20240721131635/http://cwdoc.jonathandroogh.com/index.php)
+- Clockwork Documentation - http://cwdoc.jonathandroogh.com
 
 **CloudSixteen Releases**
 
